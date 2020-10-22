@@ -1,0 +1,56 @@
+       Important Class names and ID's
+	   
+	   
+	   Action bar 
+	   
+	   
+	   Phone Icon:  id="call-to-action-phone"
+	   Caption beneath phone icon: id="phone-icon-caption" 
+	   
+	   Clipboard Icon: id="call-to-action-request-quote"
+	   Caption beneath clipboard icon: id="clipboard-icon-caption"
+	   
+	   Tree Icon: id="call-to-action-services-page"
+	   Caption beneath tree icon: id="tree-icon-caption"
+	   
+	   
+	   Container for the action bar: id="main-nav-menu"
+	   
+	   Flex container with the 4 icon/caption pairs as it's flex children: id="call-to-action-bar"
+	   
+	   The list item elements <li> in which each Icon/caption pair is wrapped is a flex container: #call-to-action-bar li
+	   
+	   
+	   
+	   
+	   Off canvas menu
+	   
+	   The container for the off canvas menu: id="menuToggle"
+	   
+	   The container for the links of the off canvas menu: id="menu"
+	   
+	   The horizontal lines comprising the hamburger icon: #menuToggle span
+	   
+	   The invisible checkbox: #menuToggle input
+	   
+	   The links of the off canvas menu: #menu li
+	   
+	   
+	   Carousel
+	   
+	   Container for the entire Carousel: .carousel
+	   
+	   Container for the carousel images: .carousel__viewport
+	   
+	   Left and right carousel buttons respectively: .carousel__prev  .carousel__next
+	   
+	   
+	   
+	   
+	   Header link
+	   
+	   
+	   Header link: .site-logo a
+	   
+	   
+	   

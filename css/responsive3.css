@@ -1,0 +1,627 @@
+
+
+html{
+	font-size: 1.75vw;}
+
+body{
+	margin: 0px;
+
+	
+
+}
+*{
+	z-index: 2;
+}
+
+
+/*Removal of the greenskeepers logo in the top header*/ 
+.site-logo a img{
+	display: none;
+}
+
+#site-logo-parent,.site-logo{/*height: 27.5vw*/font-size: 16px;
+height:  3em;}
+.site-logo{
+	
+}
+
+
+/*Company name header links*/
+.site-logo a{
+    position: absolute;
+    left: -6%;
+    bottom:;
+    font-size: 4rem;
+    z-index:0;
+    display: block;
+    color: white; 
+    width: 60vw;}
+	
+	
+
+	/*Make the Quick Links at the bottom green*/
+	.footer_widget nav ul li a{
+	color: #9ABC31!important;}
+
+	
+
+	
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+/****Off-canvas Hamburger Menu****/
+
+
+ 	
+/*This rule set establishes the positiong and formatting context of
+ the Hamburger Icon on the phone's screen*/
+#menuToggle{z-index:4; 
+position: absolute; 
+top: 0%;
+right: 0%;
+color:yellow;
+background: white;
+}
+
+
+/*This rule set configures the size dimensions of the off canvas menu;
+Configures  it movement "off-screen" when the Hamburger Icon is clicked */
+#menu
+{
+	
+  position: absolute;
+
+  top: -5vh;
+  left: 8.33vw;
+  width: 10em;
+  height: 80vh;
+
+  
+  height: 15em;
+  box-shadow: 0 0 4.16vw #85888C;
+ padding: 20.83vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
+  padding-top: 10.42vw;
+  background-color: #F5F6FA;
+  /*font-size: calc(10px + 2vh);*/
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  /*This declaration initially pushes the menu leftward so that it appears "offscreen"*/
+  transform: translate(10%, 0);
+  /*This declaration is responsible for the menu swiftly sliding into view as oppose to just rapidly materializing when the icon is clicked*/
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+
+}
+
+/*this rukle set creates the horizontal lines of the <span> elements 
+that are to constitue the Hamburger Icon.In addition the 
+'transition' property
+ of this rule set is responsible for the way the Hamburger*/
+#menuToggle span
+{
+  display: block;
+  width: 5rem;
+  font-size: 16px;
+  /*margin-bottom: 1.5625vh;*/
+  margin-bottom: .25em;
+  max-width: 1.813em;
+  height: .125em;
+  position: relative;
+  right: .96em;
+  top: 1.25em;
+  background-color: #9ABC31;
+  
+  border-radius: 10.35%;
+  z-index: 8;
+  transform-origin: 5px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+
+
+/*This rule set targets the "invisible" checkbox behind 
+the Hamburger Icon.Particulary, it is through the opacity 
+property that the checkbox is concealed
+*/
+#menuToggle input
+{
+  display: flex;
+  width: 4.17vw;
+  height: 3.75vh;
+  right: 10.417vw;
+  top: 7.8125vh;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+/*
+This rule set is responsible for  altering the three line Hamburger Icon 
+into an "X" shaped button when the icon is clicked*/
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  /*transform: rotate(45deg) translate(-3.75px, -1.75px);*/
+  transform: rotate(45deg) translate(-1.2px, 1px);
+  /*transform: rotate(45deg) translate(-5px, -3px);*/
+  /*transform: rotate(45deg) translate(-1.5px, 1px);*/
+   /*transform: rotate(45deg) translate(.00625vw, .0041875vw);*/
+  background: #36383F;
+}
+
+
+/*This rule set essentially obscures the third line of the Hamburger Icon as
+the "X" shaped button is created with the other two lines*/
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0,-1px);
+}
+
+/*The list of links in the Off canvas menu*/
+#menu li
+  {
+  transition-delay: 2s;
+  position: relative;
+  left: 10%;
+  width: 70%;
+  border-color: black;
+  border-style: solid;
+  border-width: 0px;
+  line-height: 40px;}
+
+
+
+/*This rule set is responsible format bringing the off-canvas menu 
+into view when the Hamburger Icon is clicked on*/
+
+#menuToggle input:checked ~ ul
+{transform: none;
+  transform: translate(-100%, 0);}
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+/****Carousel****/
+/*Animation code for the Carousel*/
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+/*
+body {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  font-family: 'Lato', sans-serif;
+}*/
+
+/*Univeral stylings*/
+
+
+
+ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*This rules targets the conatiner for the entire Carousel*/
+.carousel {
+  position: relative;
+  /*padding-top: 75%;*/
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  height: 70vh;
+
+  }
+
+
+/*This rules targets the conatiner for the  Carousel images*/
+.carousel__viewport {
+  position:absolute;
+  width: 100vw;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  height: 63.875vh;
+  height: 17.43em;
+  /*height: 214px;*/
+  position: relative;
+  margin-bottom: 0px;
+  max-height: 400px;}
+
+
+/*Common stylings for the slides withun the Carousel*/
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+ /* background-color: #f99;*/
+  /*counter-increment: item;*/
+}
+
+.carousel__slide:nth-child(even) {
+  /*background-color: #99f;*/
+}
+
+
+
+.carousel__slide:before {
+ /* content: counter(item);*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #fff;
+  font-size: 2em;
+}
+
+/*Stylings for the Containers of the Carousel buttons*/
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+/*The default configuring of the Carousel button's functioning via animation properties*/
+@media all {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+/* Removal of Carousel button's functioning for certain User agents*/
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+/*Halts motion of Carousel when use clicks, taps, or hovers over a slide*/
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+}
+
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+}
+
+.carousel__navigation-button {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25em solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
+
+/*Both Carousel buttons.Note that the psuedoelements 
+  produce the triangular icons.The __prev and __next 
+  are the buttons per se*/
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 0%;
+  margin-top: 37.5%;
+  width: 2.5em;
+  height: 2.5em;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;}
+
+/*The left Carousel navigation button Note that the psuedoelement 
+ represents the white triangular icon*/
+.carousel::before,
+.carousel__prev {
+  left: .6em;}
+  
+
+
+/*The right navigation button*/
+.carousel::after,
+.carousel__next {
+  right: .6em;
+}
+
+/*Stylings for theTriangular arrows wihtin the Carousel buttons*/
+.carousel::before,
+.carousel::after {
+  content: '';
+  z-index: 1;
+  background-color: #333;
+  background-size: 1.5em 1.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-size: 1em;
+  line-height: 4em;
+  text-align: center;
+  pointer-events: none;
+}
+
+
+/*Image Sourece for the Triangular arrows of the Carousel buttons*/
+.carousel::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+
+
+
+
+
+/**** Carousel Images****/
+
+#carousel__slide1,#carousel__slide2,#carousel__slide3,#carousel__slide4{
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 100vw 62.5vh;}
+
+/*1st Carousel image*/
+#carousel__slide1{
+background-image: url("https://via.placeholder.com/240X200.jpg?text=First+Image");}
+
+/*2nd Carousel image*/
+#carousel__slide2{
+ background-image: url("https://via.placeholder.com/240X200.jpg?text=Second+Image");}
+
+
+/*3rd Carousel image*/
+#carousel__slide3{
+background-image: url("https://via.placeholder.com/240X200.jpg?text=Third+Image");} 
+
+/*4th Carousel image*/
+#carousel__slide4{
+background-image: url("https://via.placeholder.com/240X200.jpg?text=Fourth+Image");}
+
+/**/
+@media only screen and (min-width: 280px){
+	/*This rule set is responsible for  altering the three line Hamburger Icon 
+into an "X" shaped button when the icon is clicked*/
+#menuToggle input:checked ~ span
+{opacity: 1;
+  transform: rotate(45deg) translate(-3.05px,-.75px);
+  background: #36383F;
+}
+}
+
+@media only screen and (min-width: 330px){
+	/*This rule set is responsible for  altering the three line Hamburger Icon 
+into an "X" shaped button when the icon is clicked*/
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  /*transform: rotate(45deg) translate(-3.05px,-.25px);*/
+  
+  transform: rotate(45deg) translate(-5px, -3px);
+  background: #36383F;
+}
+}
+
+/*Readjust the position of the header*/
+@media only screen and (min-width: 285px){
+	.site-logo a{left:-2%;}
+}
+
+
+    
+                                         
+/*cap the size of the Header's font*/
+@media only screen and (min-width: 367px){
+	 .site-logo a{ font-size: 25.69px;}
+}
+
+/*cap the font-size of the offcanvas menu's links
+@media only screen and (min-height: 400px){
+	#menu li{
+		font-size: 24.48px;
+		 left: 24px;
+         width: 168px;
+	}
+}
+*/
+/*header needs to be repositioned*/
+@media only screen and (min-width: 576px){
+	    .site-logo a{
+	    	position: fixed;
+	    	left: 1.5%;
+
+	    }
+}
+
+
+/*the header container's height needs to be increased*/
+@media only screen and (min-width: 768px){
+    .site-logo {
+    	height: 70px;
+    }
+}
+
+
+/*Tester*/
+.tester{
+	height: 246px!important;
+	font-size: 15px!important;
+	width: 164px!important;
+}
+
+/*2nd Tester*/
+.tester2{
+	width: 55vw!important;
+	height: 300px!important;
+	/*max-width: 189px;*/
+
+}
+/*
+#menu li{
+	line-height: 45px;
+	
+}
+*/
+/*3rd tester*/
+.tester3{
+	padding-top: 31px!important;
+	width: 45vw!important;
+}
+/*
+#menu li{
+	line-height: 49px;
+}*/
+
+
+
+.BigKingdom{
+	height: 85px!important;
+}
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-width: 600px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and (min-width: 600px),
+only screen and (        min-device-pixel-ratio: 2) and (min-width: 600px),
+only screen and (                min-resolution: 192dpi) and (min-width: 600px),
+only screen and (                min-resolution: 2dppx) and (min-width: 600px){ 
+.icon-pair i{
+	font-size: 40px;
+}
+}

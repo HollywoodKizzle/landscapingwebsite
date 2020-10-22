@@ -1,0 +1,50 @@
+
+		Call to Action Bar
+		
+		Icons
+			
+			Phone Icon: id: call-to-action-phone; class: fa fa-phone;
+			Clipboard Icon: id: call-to-action-request-quote; class: fas fa-clipboard;
+			Tree Icon: id: call-to-action-services-page; class: fas fa-tree;
+			Calendar Icon: id: call-to-action-book-appointment class: fas fa-calendar-check;	
+		
+		
+		
+		
+		Captions
+		
+			Phone Caption: id: phone-icon-caption;
+			Clipboard Caption: id: clipboard-icon-caption; 
+			Tree Caption: id: tree-icon-caption;
+			Calendar Caption: id: calendar-icon-caption;
+			
+			
+			
+		Flex container with Icon/Caption pairs as flex items
+		
+			id: call-to-action-bar;
+			
+		Each Icon/Caption pair is itself a Flex container targeted with
+		
+			#call-to-action-bar li;
+			
+			
+			
+		
+		Off Canvas Menu
+		
+			The Off Canvas menu itself
+				id: menu
+				
+			The lines comprising the Hamburger Icon are targeted with
+			
+			 #menuToggle span; class:
+			 
+			 
+			 The list of links in the Menu
+			 
+			 #menu li;
+			 
+			 
+			
+			
