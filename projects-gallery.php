@@ -30,6 +30,7 @@
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
 <link href="/Template/css/responsive3.css" rel="stylesheet">
+<link href="/Template/css/actionbar2.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -237,7 +238,7 @@
     <!-- Main Content -->
     <div id="main-container">
 
-    <?php include 'actionbar.php';?>
+    <?php include 'actionbar2.php';?>
     	<div class="content">
         	<div class="container">
                 <div class="grid-filter">

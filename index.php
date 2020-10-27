@@ -28,6 +28,7 @@
         <link href="css/custom.css" rel="stylesheet" type="text/css">
         <link href="/Template/css/responsive3.css" rel="stylesheet">
         <link href="/Template/css/actionbar2.css" rel="stylesheet">
+        <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
         
        
 

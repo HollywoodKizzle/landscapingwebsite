@@ -26,10 +26,10 @@
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!-- Styling for the off canvas menu-->
-<link href="/Template/css/offcanvasmenu.css" rel="stylesheet">
+<!--<link href="/Template/css/offcanvasmenu.css" rel="stylesheet">-->
 <!--Styling shared sitewide-->
-<!--<link href="/Template/css/responsive.css" rel="stylesheet">-->
   <link href="/Template/css/responsive3.css" rel="stylesheet">
+  <link href="/Template/css/actionbar2.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 
@@ -246,7 +246,7 @@
     </div>
   
 
-<?php include 'actionbar.php';?>
+<?php include 'actionbar2.php';?>
   
     <!-- Main Content -->
     <div id="main-container">

@@ -3,8 +3,12 @@
   background-color: white;
   z-index: 12;
   height: 25vh;
-  max-height: 80px;
-  min-height: 65px;
+  height: 62px;
+  /*max-height: 80px;
+  min-height: 65px;*/
+  border-top-color: blue;
+  border-top-width: 1px;
+  border-top-style: solid;
   }
   
   
@@ -12,15 +16,16 @@
   float: left; /* Float links side by side */
   text-align: center; /* Center-align text */
   width: 33%; /* Equal width (3 icons with 33% width each = 100%) */
-  padding: 12px 0;  /*Some top and bottom padding*/ 
+  padding: 4px 0;  /*Some top and bottom padding*/ 
   transition: all 0.3s ease; /* Add transition for hover effects */
   color: green; /* White text color */
   font-size: 16px; /* Increased font size */
   height:100%;
+
   }
 
   .icon-pair i{
-    font-size: 25px;
+    font-size: 28px;
   }
 
   .icon-pair span{ font-size: 14px;}
@@ -32,12 +37,7 @@
   /**Layout**/
   .icon-bar{
     position: fixed;
-    bottom:0;}
-
- /*   .icon-pair{
-      position: relative;
-      top: 1.5625%;
-    }*/
+    bottom: 0px;}
 
 /*
 .debug{
@@ -46,8 +46,34 @@
 	border-style: solid;
 }
 
- */     
+ */    
 
+/*small device retina*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 240px),
+only screen and (   min--moz-device-pixel-ratio: 2) and (min-width: 240px),
+only screen and (     -o-min-device-pixel-ratio: 2/1) and (min-width: 240px),
+only screen and (        min-device-pixel-ratio: 2) and (min-width: 240px),
+only screen and (                min-resolution: 192dpi) and (min-width: 240px),
+only screen and (                min-resolution: 2dppx) and (min-width: 240px){
+	.icon-pair i{
+    font-size: 27px;
+  }
+
+  .icon-pair span{ font-size: 14px;}
+} 
+
+@media only screen and (min-width: 450px){
+	.icon-pair i{ font-size: 32px;}
+	              
+    .icon-pair{padding: 0 0;}
+
+    .icon-bar{ height: 65px;}
+
+}
+
+
+/*
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 500px),
 only screen and (   min--moz-device-pixel-ratio: 2) and (min-width: 500px),
@@ -60,7 +86,7 @@ only screen and (                min-resolution: 2dppx) and (min-width: 500px){
     }
 
     .icon-pair{
-      padding: 12px 0;
+      padding: 9px 0;
     }
 
 .icon-pair i{
@@ -68,11 +94,11 @@ only screen and (                min-resolution: 2dppx) and (min-width: 500px){
 }
 
 .icon-pair span{
-  font-size: 20px
+  font-size: 16px
 }
 }
 
-
+*/
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px),
@@ -82,6 +108,5 @@ only screen and (        min-device-pixel-ratio: 2) and (min-width: 600px),
 only screen and (                min-resolution: 192dpi) and (min-width: 600px),
 only screen and (                min-resolution: 2dppx) and (min-width: 600px){ 
 .icon-pair i{
-	font-size: 40px;
 }
 }
