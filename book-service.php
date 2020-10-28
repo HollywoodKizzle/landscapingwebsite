@@ -25,13 +25,12 @@
 <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
-<link href="/Template/css/offcanvasmenu.css" rel="stylesheet">
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
 <link href="/Template/css/responsive3.css" rel="stylesheet">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
-<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">
 <!-- SCRIPTS
@@ -510,6 +509,7 @@ bottom: 220px;
   	</div>
   	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
 </div>
+<script src="/Template/js/offcanvasmenu.js"></script>
 <script src="js/jquery-2.2.3.min.js"></script> <!-- Jquery Library Call -->
 <script src="vendor/magnific/jquery.magnific-popup.min.js"></script> <!-- PrettyPhoto Plugin -->
 <script src="js/ui-plugins.js"></script> <!-- UI Plugins -->
@@ -522,5 +522,6 @@ bottom: 220px;
 	$('#service-time').timepicker({defaultTime: false, showMeridian: false});
 	$('#service-date').datepicker();
 </script>
+
 </body>
 </html>

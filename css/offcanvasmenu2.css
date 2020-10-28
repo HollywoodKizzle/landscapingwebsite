@@ -1,142 +1,108 @@
 
-
- 	
-/*This rule set establishes the positiong and formatting context of
- the Hamburger Icon on the phone's screen*/
-#menuToggle{z-index:4; 
-position: absolute; 
-top: 0%;
-right: 0%;
-color:yellow;
-background: white;
-top: 0px;
-right: 0px;
-}
-
-
 /*This rule set configures the size dimensions of the off canvas menu;
 Configures  it movement "off-screen" when the Hamburger Icon is clicked */
 #menu
-{
-	
-  position: absolute;
-
-  /*top: -5vh;
-  left: 8.33vw;*/
+{position: absolute;
   width: 10em;
-  /*height: 80vh;*/
-  left: 20.4px;
+  left: 70px;
   top: -16px;
   height: 245px;
-
-
-  
- /* height: 15em;*/
   box-shadow: 0 0 4.16vw #85888C;
- /*padding: 20.83vw;
-  padding-right: 0vw;
-  padding-left: 0vw;
-  padding-top: 10.42vw;*/
   padding-left: 10px;
   padding-right: 0px;
   padding-top: 25.5px;
   padding-bottom: 51px;
   background-color: #F5F6FA;
-  /*font-size: calc(10px + 2vh);*/
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   /*This declaration initially pushes the menu leftward so that it appears "offscreen"*/
   transform: translate(10%, 0);
   /*This declaration is responsible for the menu swiftly sliding into view as oppose to just rapidly materializing when the icon is clicked*/
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-}
-
+  }
 
 
-/*this rukle set creates the horizontal lines of the <span> elements 
-that are to constitue the Hamburger Icon.In addition the 
-'transition' property
- of this rule set is responsible for the way the Hamburger*/
-#menuToggle span
-{
-  display: block;
-  width: 5rem;
-  font-size: 16px;
-  /*margin-bottom: 1.5625vh;*/
-  margin-bottom: .25em;
-  max-width: 1.813em;
-  height: .125em;
-  position: relative;
-  right: .96em;
-  top: 1.25em;
-  background-color: #9ABC31;
-  
-  border-radius: 10.35%;
-  z-index: 8;
-  transform-origin: 5px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
 
-
-/*This rule set targets the "invisible" checkbox behind 
-the Hamburger Icon.Particulary, it is through the opacity 
-property that the checkbox is concealed
-*/
-#menuToggle input
-{
-  display: flex;
-  width: 4.17vw;
-  height: 3.75vh;
-  right: 10.417vw;
-  top: 7.8125vh;
+/*conatiner for the Hamburger Icon*/
+#menuToggle{
+  z-index:9;
+  width: 60px;
+  height: 45px;
   position: absolute;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 2;
-}
+  top: -35px;
+  right: -20px;
+  margin: 50px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;}
 
 
 
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-/*
-This rule set is responsible for  altering the three line Hamburger Icon 
-into an "X" shaped button when the icon is clicked*/
-#menuToggle input:checked ~ span
-{
+/*The the three horizontal lines comprising the Hamburger Icon*/
+#menuToggle span{
+  z-index: 7;
+  display: block;
+  position: absolute;
+  height: 3.5px;
+  width: 50%;
+  background: rgb(154, 188, 49);
+  border-radius: 7px;
   opacity: 1;
-  /*transform: rotate(45deg) translate(-3.75px, -1.75px);*/
-  transform: rotate(45deg) translate(-1.2px, 1px);
-  /*transform: rotate(45deg) translate(-5px, -3px);*/
-  /*transform: rotate(45deg) translate(-1.5px, 1px);*/
-   /*transform: rotate(45deg) translate(.00625vw, .0041875vw);*/
-  background: #36383F;
-}
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;}
 
 
 
-/*This rule set essentially obscures the third line of the Hamburger Icon as
-the "X" shaped button is created with the other two lines*/
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+
+/*Vertical spacing between the hroizontal lines of the Hamburger Icon*/
+#menuToggle span:nth-child(1) {
+  top: 0px;}
+
+#menuToggle span:nth-child(2) {
+  top: 8px;}
+
+#menuToggle span:nth-child(3) {
+  top: 16px;}
+
+
+
+/*the animation that rearranges the Hamburger Icon into a close button*/
+#menuToggle.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);}
+
+
+#menuToggle.open span:nth-child(2) {
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
+  left: -60px;}
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0,-1px);
-}
+
+#menuToggle.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);}
+
+#menuToggle.open{
+  top:-45px;
+  z-index: 10;}
 
 /*The list of links in the Off canvas menu*/
 #menu li
@@ -156,9 +122,9 @@ the "X" shaped button is created with the other two lines*/
 /*This rule set is responsible format bringing the off-canvas menu 
 into view when the Hamburger Icon is clicked on*/
 
-#menuToggle input:checked ~ ul
+#menuToggle.open ul
 {transform: none;
-  transform: translate(-100%, 0);}
+  transform: translate(-127%, 0);}
   
 
 
@@ -173,4 +139,9 @@ into view when the Hamburger Icon is clicked on*/
     #menu{width: 180px;}
 
     #menu li{ left: 25px;}
+
+    #menuToggle.open ul
+{transform: none;
+  transform: translate(-119%, 0);}
+  
   }

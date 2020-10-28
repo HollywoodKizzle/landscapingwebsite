@@ -25,13 +25,12 @@
 <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
-<!-- Styling for the off canvas menu-->
-<!--<link href="/Template/css/offcanvasmenu.css" rel="stylesheet">-->
 <!--Styling shared sitewide-->
   <link href="/Template/css/responsive3.css" rel="stylesheet">
   <link href="/Template/css/actionbar2.css" rel="stylesheet">
+  <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
-<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
+
 
 <!--SCRIPT FOR FONT AWESOME ICONS-->
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
@@ -45,6 +44,7 @@
     height: 320px!important;
     position: relative;
     bottom:30px;
+    z-index: 0;
 }
 
 
@@ -92,6 +92,7 @@
 <!--[if lt IE 7]>
 	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 <![endif]-->
+
 <div class="body">
 	<!-- Start Header -->
     <div class="header-wrapper">
@@ -104,7 +105,7 @@
                 <div class="site-tagline">Lawn &amp; Landscaping</div>
                 <a href="#" class="btn btn-default btn-sm unwanted" id="contact-info"><i class="fa fa-bars unwanted"></i></a>
                 
-           <?php include 'offcanvasmenu.php';?>
+           
 
                 <div class="site-header-right">
                 	<ul class="header-info-cols">
@@ -123,7 +124,9 @@
                     </ul>
                 </div>
             </div>
+
         </header>
+
         <div class="main-navigation">
         	<div class="container">
             	<a href="book-service.php" class="btn btn-primary btn-sm pull-right quote-head-btn">Book a service</a>
@@ -232,6 +235,7 @@
     </div>
     <!-- End Header -->
     <!-- Start Hero Area -->
+    <?php include 'offcanvasmenu.php';?>
     <div class="hero-area">
     	<div class="page-header dark">
         	<div class="container">
@@ -474,5 +478,6 @@
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
+<script src="/Template/js/offcanvasmenu.js"></script>
 </body>
 </html>

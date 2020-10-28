@@ -5,9 +5,8 @@
 
 
 <div id="menuToggle">
-            <!--Now this is where things get interesting.The checkbox below is masked behind the Hamburger Icon on the  screen, 
-			such that when the user clicks in it's general vicinity, the "chekced" psuedoclasses produce the off canvas menu-->
-              <input type="checkbox"/>
+            
+              
               <!--Each span element corresponds to one of the three lines comprising the Hamburger Icon -->
                <span></span>
                 <span></span>

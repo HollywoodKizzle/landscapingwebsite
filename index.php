@@ -939,8 +939,8 @@
         <!-- All Scripts -->
         <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
         <!-- FlexSlider -->
-
-        
+        <script src="/Template/js/offcanvasmenu.js"></script>
+ 
 
     </body>
 </html>
