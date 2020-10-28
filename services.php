@@ -87,8 +87,8 @@ z-index: 3;
     	<header class="site-header">
         	<div class="container">
                 <div class="site-logo">
-                    <a href="index.php"><img src="images/logo.png" alt="Logo"></a>
-                    <a href="/Template/index.php">A&M Landscaping</a>
+                    <!--<a href="index.php"><img src="images/logo.png" alt="Logo"></a>-->
+                    <?php include 'headerlink.php';?>
                 </div>
                 <div class="site-tagline">Lawn &amp; Landscaping Services</div>
                 <a href="#" class="btn btn-default btn-sm unwanted" id="contact-info"><i class="fa fa-bars unwanted"></i></a>
@@ -350,9 +350,9 @@ z-index: 3;
         	<div class="row">
             	<div class="col-md-3 col-sm-6">
                 	<div class="widget footer_widget">
-                    	<h4 class="widgettitle"><i class="fa fa-info-circle"></i> About A&M Landscaping</h4>
+                    	<?php include 'footerlinks.php';?>
                         <p class="unwanted"><img src="images/logo.png" alt=""></p>
-                        <p class="footer-heading">A&M Landscaping</p>
+                        <!--<p class="footer-heading">A&M Landscaping</p>-->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                     </div>
                 </div>
@@ -405,7 +405,7 @@ z-index: 3;
         	<div class="row">
             	<div class="col-md-6 col-sm-6">
                 	<div class="copyrights-col-left">
-                    	<p>&copy; 2016 A&M Landscaping. All Rights Reserved</p>
+                    	<?php include 'copyright.php';?>
                     </div>
                 </div>
             	<div class="col-md-6 col-sm-6">

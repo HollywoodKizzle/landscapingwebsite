@@ -54,9 +54,9 @@
                 <header class="site-header">
                     <div class="container" id="site-logo-parent">
                         <div class="site-logo">
-                            <!-- <a href="index.php"><img src="images/logo.png" alt="Logo"></a>-->
-                           <a class="" href="/Template/index.php"><span>A&M Landscaping</span></a>
-                           <!--<h1>A&M Landscaping</h1>-->
+                            
+                          <?php include 'headerlink.php';?>
+                           
                         </div>
                         <div class="site-tagline">Lawn &amp;Landscaping Services</div>
                         <!-- <a href="#" class="btn btn-default btn-sm" id="contact-info"><i class="fa fa-bars"></i></a>-->
@@ -776,13 +776,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="widget footer_widget">
-                                <h4 class="widgettitle">
-                                    <i class="fa fa-info-circle"></i>
-                                    About A&M Landscaping
-                                </h4>
-                                <a href="/Template/index.php"class="footer-heading">
-                                   A&M Landscaping
-                                </a>
+                               <?php include 'footerlinks.php';?>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                             </div>
                         </div>
@@ -877,7 +871,7 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="copyrights-col-left">
-                                <p>&copy;2016 A&M Landscaping. All Rights Reserved</p>
+                                <?php include 'copyright.php';?>
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -938,7 +932,7 @@
         <script src="js/init.js"></script>
         <!-- All Scripts -->
         <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
-        <!-- FlexSlider -->
+        
         <script src="/Template/js/offcanvasmenu.js"></script>
  
 

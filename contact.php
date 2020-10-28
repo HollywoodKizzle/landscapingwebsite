@@ -26,10 +26,9 @@
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
-<link href="/Template/css/offcanvasmenu.css" rel="stylesheet">
 <!--Styling shared sitewide-->
-<!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
 <link href="/Template/css/responsive3.css" rel="stylesheet">
+<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -96,14 +95,14 @@
     	<header class="site-header">
         	<div class="container">
                 <div class="site-logo">
-                    <a href="index.php"><img src="images/logo.png" alt="Logo"></a>
-                    <a href="/Template/index.php" id="company-name">A&M Landscaping</p>
+                    <!--<a href="index.php"><img src="images/logo.png" alt="Logo"></a>-->
+                    <?php include 'headerlink.php';?>
                 </div>
                 <div class="site-tagline">Lawn &amp; Landscaping Services</div>
                 <a href="#" class="btn btn-default btn-sm" id="contact-info"><i class="fa fa-bars unwanted"></i></a>
                
 
-            <?php include 'offcanvasmenu.php';?>
+            
 
                
                 <div class="site-header-right">
@@ -231,6 +230,7 @@
         </div>
     </div>
     <!-- End Header -->
+    <?php include 'offcanvasmenu.php';?>
     <!-- Start Hero Area -->
     <div class="hero-area">
     	<div class="page-header dark">
@@ -379,9 +379,9 @@
         	<div class="row">
             	<div class="col-md-3 col-sm-6">
                 	<div class="widget footer_widget">
-                    	<h4 class="widgettitle"><i class="fa fa-info-circle"></i> About A&M Landscaping</h4>
+                    	<?php include 'footerlinks.php';?>
                         <p class="unwanted"><img src="images/logo.png" alt=""></p>
-                        <p class="footer-heading">A&M Landscaping</p>
+                        <!--<p class="footer-heading">A&M Landscaping</p>-->
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                     </div>
                 </div>
@@ -434,7 +434,7 @@
         	<div class="row">
             	<div class="col-md-6 col-sm-6">
                 	<div class="copyrights-col-left">
-                    	<p>&copy; 2016 A&M Landscaping. All Rights Reserved</p>
+                    <?php include 'copyright.php';?>
                     </div>
                 </div>
             	<div class="col-md-6 col-sm-6">
@@ -498,5 +498,6 @@
                 });
             }
         </script>
+        <script src="/Template/js/offcanvasmenu.js"></script>
 </body>
 </html>

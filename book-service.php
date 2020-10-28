@@ -28,8 +28,9 @@
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
 <link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">
@@ -103,7 +104,7 @@ bottom: 220px;
                 <a href="#" class="btn btn-default btn-sm" id="contact-info"><i class="fa fa-bars unwanted"></i></a>
                 
 
-            <?php include 'offcanvasmenu.php'?>
+            
 
                 
                 <div class="site-header-right">
@@ -231,6 +232,7 @@ bottom: 220px;
         </div>
     </div>
     <!-- End Header -->
+    <?php include 'offcanvasmenu.php'?>
     <!-- Start Hero Area -->
     <div class="hero-area">
     	<div class="page-header" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
@@ -509,7 +511,6 @@ bottom: 220px;
   	</div>
   	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
 </div>
-<script src="/Template/js/offcanvasmenu.js"></script>
 <script src="js/jquery-2.2.3.min.js"></script> <!-- Jquery Library Call -->
 <script src="vendor/magnific/jquery.magnific-popup.min.js"></script> <!-- PrettyPhoto Plugin -->
 <script src="js/ui-plugins.js"></script> <!-- UI Plugins -->
@@ -522,6 +523,6 @@ bottom: 220px;
 	$('#service-time').timepicker({defaultTime: false, showMeridian: false});
 	$('#service-date').datepicker();
 </script>
-
+<script src="/Template/js/offcanvasmenu.js"></script>
 </body>
 </html>
