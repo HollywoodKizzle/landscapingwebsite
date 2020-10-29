@@ -85,6 +85,9 @@ bottom: 220px;
 .footer_widget nav ul li a{
 	color: #9ABC31!important;
 }
+
+.footer-heading{font-size: 20px!important;
+color: white!important;}
 </style>
 </head>
 <body>
@@ -97,8 +100,8 @@ bottom: 220px;
     	<header class="site-header">
         	<div class="container">
                 <div class="site-logo">
-                    <a href="index.php"><img src="images/logo.png" alt="Logo"></a>
-                    <a href="/Template/index.php">A&M Landscaping</a>
+                    <!--<a href="index.php"><img src="images/logo.png" alt="Logo"></a>-->
+                    <?php include 'headerlink.php';?>
                 </div>
                 <div class="site-tagline">Lawn &amp; Landscaping Services</div>
                 <a href="#" class="btn btn-default btn-sm" id="contact-info"><i class="fa fa-bars unwanted"></i></a>
@@ -436,9 +439,9 @@ bottom: 220px;
         	<div class="row">
             	<div class="col-md-3 col-sm-6">
                 	<div class="widget footer_widget">
-                    	<h4 class="widgettitle"><i class="fa fa-info-circle"></i> About A&M Landscaping</h4>
-                        <p class="unwanted"><img src="images/logo.png" alt=""></p>
-                        <p style="font-size: 20px; color: white;">A&M Landscaping</p>
+                    	<?php include 'footerlinks.php';?>
+                        <!--<p class="unwanted"><img src="images/logo.png" alt=""></p>-->
+                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                     </div>
                 </div>
@@ -491,7 +494,7 @@ bottom: 220px;
         	<div class="row">
             	<div class="col-md-6 col-sm-6">
                 	<div class="copyrights-col-left">
-                    	<p>&copy; 2016 A&M Landscaping. All Rights Reserved</p>
+                    	<?php include 'copyright.php';?>
                     </div>
                 </div>
             	<div class="col-md-6 col-sm-6">
