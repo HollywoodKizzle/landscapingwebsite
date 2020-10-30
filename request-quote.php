@@ -83,7 +83,7 @@
             	<h1>Request a Quote</h1>
             </div>
         </div>
- <?php include 'offcanvasmenu.php';?>
+ <!--<?php include 'offcanvasmenu.php';?>-->
 
 <div class="col-md-3 col-sm-6">
                     <div class="widget footer_widget">

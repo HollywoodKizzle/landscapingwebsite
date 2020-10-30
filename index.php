@@ -1,5 +1,13 @@
+
+<?php
+$phoneinfo= "984-235-8614";
+$workinghours="Mon-Sat 9am-5pm";
+
+?>
+
 <!DOCTYPE html>
 <html class="no-js">
+
     <head>
         <!-- Basic Page Needs
   ================================================== -->
@@ -75,17 +83,23 @@
                                     </div>
                                 </li>
                                 <li>
+                                   <a href="tel:+1<?php echo $phoneinfo;?>">    
                                     <span class="icon-col">
                                         <i class="fa fa-phone"></i>
+                                   
                                     </span>
+                                    </a>
                                     <div>
                                         <div>
+                                        <a href="tel:+1<?php echo $phoneinfo;?>">
                                             <span>
                                                 <strong>Call us toll free</strong>
-                                                <br>919-628-6766
+                                                <br><?php  echo $phoneinfo;?>
                                             </span>
+                                        </a>
                                         </div>
                                     </div>
+                                    
                                 </li>
                                 <li>
                                     <span class="icon-col">
@@ -95,7 +109,7 @@
                                         <div>
                                             <span>
                                                 <strong>Working Hours</strong>
-                                                <br>Mon - Sat 06:00 to 18:00
+                                                <br><?php echo $workinghours;?>
                                             </span>
                                         </div>
                                     </div>

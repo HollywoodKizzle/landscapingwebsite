@@ -1,5 +1,8 @@
-
-
+/*
+.debug{
+	border-width: 1px;
+	border-color: blue;
+	border-style: solid;}*/
 html{
 	font-size: 1.75vw;}
 
@@ -14,6 +17,10 @@ body{
 }
 
 
+#contact-info{
+	display: none!important;
+}
+
 /*Removal of the greenskeepers logo in the top header*/ 
 .site-logo a img{
 	display: none;
@@ -21,9 +28,13 @@ body{
 
 #site-logo-parent,.site-logo{/*height: 27.5vw*/font-size: 16px;
 height:  3em;}
+
 .site-logo{
+	max-width: 230px;}
+
 	
-}
+	
+
 
 
 /*Company name header links*/
@@ -35,7 +46,10 @@ height:  3em;}
     z-index:0;
     display: block;
     color: white; 
-    width: 60vw;}
+    width: 60vw;
+    max-width: 220px;}
+
+    .site-logo a:hover{color: white;}
 	
 	
 
@@ -389,6 +403,15 @@ into an "X" shaped button when the icon is clicked*/
 
 	    }
 }
+/*Custom Tablet Breakpoint
+@media only screen and (min-width: 600px){
+	.site-header-right{
+		float:left;
+		width:100%;
+		display:none
+	}
+}*/
+
 
 
 /*the header container's height needs to be increased*/
