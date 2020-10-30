@@ -7,3 +7,5 @@ $workinghours="Mon-Sat 9am-5pm";
 <?php echo $workinghours;?>
 
 <a href="tel:+1<?php echo $phoneinfo;?>">
+
+updatemaster git add . &&git commit -m 'updates' 
