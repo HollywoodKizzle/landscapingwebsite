@@ -16,6 +16,8 @@ body{
 	z-index: 2;
 }
 
+/*remove all breadcrumbs*/
+.breadcrumb{display: none;}
 
 #contact-info{
 	display: none!important;

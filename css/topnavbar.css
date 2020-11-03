@@ -1,0 +1,26 @@
+
+
+
+.topnav{border-width: 1px;
+        border-style: solid;
+        border-color:#9abc31;
+        border-top: none; 
+        overflow: hidden;}
+
+
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #9abc31;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right-color:#9abc31;
+  border-right-style: solid;
+  border-right-width: 1px;}
+
+  .topnav a:nth-of-type(6){border: none;}
