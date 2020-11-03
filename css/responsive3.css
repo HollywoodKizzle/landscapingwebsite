@@ -13,6 +13,8 @@ body{
 	z-index: 2;
 }
 
+/*remove all breadcrumbs*/
+.breadcrumb{display: none;}
 
 /*Removal of the greenskeepers logo in the top header*/ 
 .site-logo a img{

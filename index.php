@@ -29,6 +29,7 @@
         <link href="/Template/css/responsive3.css" rel="stylesheet">
         <link href="/Template/css/actionbar2.css" rel="stylesheet">
         <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+        <link href-"/Template/css/topnavbar.css" rel="stylesheet">
         
        
 
@@ -42,7 +43,11 @@
         <!-- Modernizr -->
 		<script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 		<!--Removal of unwanted de3fault Template elements and content-->
-		    
+		<style>
+        /*.topnav{position: absolute;z-index: 50;}*/
+
+
+		</style>    
     </head>
     <body class="home">
         <!--[if lt IE 7]>
@@ -354,12 +359,13 @@
                         </a>-->
 
            <?php include 'offcanvasmenu.php';?>
-
+        <?php include 'topnavbar.php';?>
         <?php include 'css-onlyCarousel.php'?>
 
                         
            
            <?php include 'actionbar2.php';?>
+           
            <!-- <div class="quote-teaser" id="quote-teaser1">
                 <div class="container" id="estimate-form-body">
                     <div class="quote-teaser-title">

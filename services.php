@@ -27,6 +27,7 @@
 <link href="/Template/css/responsive3.css" rel="stylesheet">
 <link href="/Template/css/actionbar2.css" rel="stylesheet">
 <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="/Template/css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -114,6 +115,7 @@ z-index: 3;
                 </div>
             </div>
         </header>
+
         <div class="main-navigation">
         	<div class="container">
             	<a href="book-service.php" class="btn btn-primary btn-sm pull-right quote-head-btn">Book a service</a>
@@ -220,6 +222,7 @@ z-index: 3;
             </div>
         </div>
     </div>
+
     <!-- End Header -->
     <!-- Start Hero Area -->
     <div class="hero-area">
@@ -234,6 +237,7 @@ z-index: 3;
             </div>
         </div>
     </div>
+    <?php include 'topnavbar.php'?>
     <!-- Main Content -->
     <div id="main-container">
     <a href="/Template/book-service.php"> <button type="submit" id="service-submit" name="service-submit" class="btn btn-primary btn-lg margin-20">Book Service</button></a>
@@ -252,6 +256,7 @@ z-index: 3;
 
                        
             <?php include 'actionbar2.php'?>
+
                        
     	<div class="content">
         	<div class="container">
