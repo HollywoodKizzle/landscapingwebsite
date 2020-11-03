@@ -1,13 +1,5 @@
-
-<?php
-$phoneinfo= "984-235-8614";
-$workinghours="Mon-Sat 9am-5pm";
-
-?>
-
 <!DOCTYPE html>
 <html class="no-js">
-
     <head>
         <!-- Basic Page Needs
   ================================================== -->
@@ -83,23 +75,17 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </div>
                                 </li>
                                 <li>
-                                   <a href="tel:+1<?php echo $phoneinfo;?>">    
                                     <span class="icon-col">
                                         <i class="fa fa-phone"></i>
-                                   
                                     </span>
-                                    </a>
                                     <div>
                                         <div>
-                                        <a href="tel:+1<?php echo $phoneinfo;?>">
                                             <span>
                                                 <strong>Call us toll free</strong>
-                                                <br><?php  echo $phoneinfo;?>
+                                                <br>919-628-6766
                                             </span>
-                                        </a>
                                         </div>
                                     </div>
-                                    
                                 </li>
                                 <li>
                                     <span class="icon-col">
@@ -109,7 +95,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                         <div>
                                             <span>
                                                 <strong>Working Hours</strong>
-                                                <br><?php echo $workinghours;?>
+                                                <br>Mon - Sat 06:00 to 18:00
                                             </span>
                                         </div>
                                     </div>

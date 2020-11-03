@@ -6,7 +6,7 @@
         
 
                 <div class="icon-pair debug">
-                    <a href="tel:+1<?php echo $phoneinfo;?>" class="icon-col nav-link align-self-center" ><i id="call-to-action-phone" class="fa fa-phone"></i></a> 
+                    <a href="tel:+1-919-628-6766" class="icon-col nav-link align-self-center" ><i id="call-to-action-phone" class="fa fa-phone"></i></a> 
                     <span id="phone-icon-caption" class="align-self-center">Call</span>
                 </div>
 

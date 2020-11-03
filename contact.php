@@ -1,8 +1,3 @@
-<?php
-$phoneinfo= "919-628-6766";
-$workinghours="Mon-Sat 9am-5pm";?>
-
-
 <!DOCTYPE HTML>
 <html class="no-js">
 <head>
@@ -118,12 +113,11 @@ $workinghours="Mon-Sat 9am-5pm";?>
                         </li>
   						<li>
                         	<span class="icon-col"><i class="fa fa-phone"></i></span>
-                            <div><div><a href="tel:+1<?php echo $phoneinfo;?>"><span><strong>Call us toll free</strong><br><?php echo $phoneinfo;?>
-                            </span></a></div></div>
+                            <div><div><span><strong>Call us toll free</strong><br>1800-9090-8089</span></div></div>
                         </li>
   						<li>
                         	<span class="icon-col"><i class="fa fa-clock-o"></i></span>
-                            <div><div><span><strong>Working Hours</strong><br><?php echo $workinghours;?></span></div></div>
+                            <div><div><span><strong>Working Hours</strong><br>Mon - Sat 06:00 to 18:00</span></div></div>
                         </li>
                     </ul>
                 </div>

@@ -1295,7 +1295,7 @@ body.boxed .is-sticky .main-navigation{
 	position: absolute;
 	top: 0;
 	right: 70px;
-	width: 2000px;
+	width:2000px;
 	height: 100%;
 	z-index:0;
 }
@@ -1347,8 +1347,7 @@ body.boxed .is-sticky .main-navigation{
 }
 .site-header-right{
 	float:right;
-	/*position:relative;*/
-	position: absolute;
+	position:relative;
 	z-index:2;
 }
 .header-style3 .site-logo:before{
@@ -1383,25 +1382,15 @@ body.boxed .is-sticky .main-navigation{
 	float:right;
 	list-style-type:none;
 	margin:0;
-	position: relative;
-	left: 220px;
-
 }
 .header-info-cols li{
 	float:left;
-	font-size:11px;
+	font-size:13px;
 	line-height:17px;
 	padding-top:15px;
 	white-space:nowrap;
 	margin-left:20px;
-	position: relative;
-	bottom: 10px;
 }
-ul.header-info-cols li:nth-of-type(1){display:none;}
-ul.header-info-cols li:nth-of-type(2) div span{color: #9abc31;}
-ul.header-info-cols li:nth-of-type(3) span.icon-col{border: none;}
-ul.header-info-cols li .fa{font-size: 20px;}
-
 .header-style2 .header-info-cols li, .header-style3 .header-info-cols li{
 	margin-left:0;
 	margin-right:20px;
@@ -1430,12 +1419,12 @@ ul.header-info-cols li .fa{font-size: 20px;}
 	text-align:center;
 	font-size:20px;
 	line-height:36px;
+}/*
+#call-to-action-bar{
+	z-index:6;
+	
 }
-.header-info-cols li .icon-col .fa-clock-o{
-	display: none;
-	border: none;
-}
-
+*/
 #phone-info .icon-col, #hours-info .icon-col{
 	width:40px;
 	height:40px;
@@ -3341,11 +3330,11 @@ top: 25px;
 		display:inline-block;
 		margin-top:12px;
 	}
-	/*.site-header-right{
+	.site-header-right{
 		float:left;
 		width:100%;
 		display:none
-	}*/
+	}
 	.header-info-cols{
 		float:none;
 		text-align:center;
@@ -3740,16 +3729,6 @@ top: 25px;
 	display: none;
 }
 }*/
-
-/*Custom tablet breakpoint for top navbar*/
-@media only screen and (max-width: 600px){
-	.site-header-right{
-		float:left;
-		width:100%;
-		display:none
-	}
-}
-
 
 
 @media only screen and (max-width: 480px) {
