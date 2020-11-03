@@ -37,6 +37,7 @@ $workinghours="Mon-Sat 9am-5pm";
 <link href="/Template/css/responsive3.css" rel="stylesheet">
 <link href="/Template/css/actionbar2.css" rel="stylesheet">
 <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="/Template/css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -137,6 +138,7 @@ color: white!important;}
 
             
 
+                   
 
                 
                 <div class="site-header-right">
@@ -156,9 +158,12 @@ color: white!important;}
                             <div><div><span><strong>Working Hours</strong><br><?php echo $workinghours;?></span></div></div>
                         </li>
                     </ul>
+
                 </div>
             </div>
+            
         </header>
+    
         <div class="main-navigation">
         	<div class="container">
             	<a href="book-service.php" class="btn btn-primary btn-sm pull-right quote-head-btn">Book a service</a>
@@ -266,6 +271,7 @@ color: white!important;}
         </div>
     </div>
     <!-- End Header -->
+    
     <?php include 'offcanvasmenu.php';?> 
     <!-- Start Hero Area -->
     <div class="hero-area">
@@ -280,10 +286,13 @@ color: white!important;}
             </div>
         </div>
     </div>
+    <?php include 'topnavbar.php';?>
     <!-- Main Content -->
     <div id="main-container">
 
     <?php include 'actionbar2.php';?>
+
+
 
     
     	<div class="content">

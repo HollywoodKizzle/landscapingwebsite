@@ -5,10 +5,12 @@
         border-style: solid;
         border-color:#9abc31;
         border-top: none; 
-        overflow: hidden;}
+        overflow: hidden;
+        z-index: 3;
+           }
 
 
-
+#mytopnav{display: none!important;}
 
 
 .topnav a {
@@ -21,6 +23,9 @@
   font-size: 17px;
   border-right-color:#9abc31;
   border-right-style: solid;
-  border-right-width: 1px;}
+  border-right-width: 1px;
+  z-index: 4;
+
+  }
 
   .topnav a:nth-of-type(6){border: none;}
