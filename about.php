@@ -88,7 +88,7 @@ $workinghours="Mon-Sat 9am-5pm";
 	color: #9ABC31!important;
 }
  
-
+.page-header.dark h1{ display: none;}
 
 </style>
 <!-- Color Style -->

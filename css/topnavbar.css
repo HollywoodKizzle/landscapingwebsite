@@ -4,9 +4,12 @@
 .topnav{border-width: 1px;
         border-style: solid;
         border-color:#9abc31;
-        border-top: none; 
+        /*border-top: none; */
         border-right: none;
-        overflow: hidden;}
+        border-left: none;
+        overflow: hidden;
+        display:none;
+        width: 100%;}
 
 
 
@@ -24,4 +27,19 @@
   border-right-style: solid;
   border-right-width: 1px;}
 
-  .topnav a:nth-of-type(6){border: none;}
+  /*.topnav a:nth-of-type(4),.topnav a:nth-of-type(5)
+  { border-top-color:#9abc31;
+   border-top-style: solid;
+   border-top-width: 1px;}*/
+
+  .topnav a:nth-of-type(6){
+   border: none;
+  /* border-top-color:#9abc31;
+   border-top-style: solid;
+   border-top-width: 1px;
+   width:  100px;*/
+   }
+
+  @media only screen and (min-width: 600px){
+    .topnav{display: block;}
+  }
