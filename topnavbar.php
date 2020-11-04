@@ -6,5 +6,7 @@
   <a href="/Template/contact.php">Contact Us</a>
   <a href="/Template/services.php" class="active">Services</a>
   <a href="/Template/pricing.php" class="active">Pricing</a>
+  <a href="/Template/request-quote.php" id="free-quotek" class="active">Free Quote</a>
+
   
 </div>

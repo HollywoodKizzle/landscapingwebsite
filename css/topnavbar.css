@@ -34,12 +34,19 @@
 
   .topnav a:nth-of-type(6){
    border: none;
-  /* border-top-color:#9abc31;
-   border-top-style: solid;
-   border-top-width: 1px;
-   width:  100px;*/
+   border-right-color:#9abc31;
+   border-right-style: solid;
+   border-right-width: 1px;
+   
    }
+     #free-quotek{display:none!important;}
 
   @media only screen and (min-width: 600px){
     .topnav{display: block;}
+  }
+
+
+  @media only screen and (min-width: 700px){
+      #free-quotek{display: block!important;
+      border-right: none;}
   }
