@@ -51,7 +51,7 @@ $workinghours="Mon-Sat 9am-5pm";
 
 /*Remove the default Template background image*/
 .page-header{
-    display: none;
+   /* display: none;*/
 }
 
 
