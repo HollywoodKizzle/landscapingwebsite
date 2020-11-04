@@ -1350,6 +1350,7 @@ body.boxed .is-sticky .main-navigation{
 	/*position:relative;*/
 	position: absolute;
 	z-index:2;
+	height: 34px;
 }
 .header-style3 .site-logo:before{
 	display:none;

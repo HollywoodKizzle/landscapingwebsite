@@ -1,10 +1,10 @@
 
 <div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">About Us</a>
-  <a href="#contact">Our Work</a>
-  <a href="#about">Contact Us</a>
-  <a href="#home" class="active">Services</a>
-  <a href="#home" class="active">Pricing</a>
+  <a href="/Template/index.php" class="active">Home</a>
+  <a href="/Template/about.php">About Us</a>
+  <a href="/Template/projects-gallery.php">Our Work</a>
+  <a href="/Template/contact.php">Contact Us</a>
+  <a href="/Template/services.php" class="active">Services</a>
+  <a href="/Template/pricing.php" class="active">Pricing</a>
   
 </div>
