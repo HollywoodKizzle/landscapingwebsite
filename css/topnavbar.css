@@ -32,12 +32,15 @@
    border-top-style: solid;
    border-top-width: 1px;}*/
 
-  .topnav a:nth-of-type(6){
+  #pricing-link{
    border: none!important;
-   text-align: center!important;
+   /*position: relative;
+   left: 3.5%;*/}
+  
    
    
-   }
+   
+   
      #free-quotek{display:none!important;}
 
   @media only screen and (min-width: 600px){
@@ -49,8 +52,7 @@
       #free-quotek{display: block!important;
       border-right: none;}
   
-
-  .topnav a:nth-of-type(6){ 
+   #pricing-link{ 
    border-right-color:#9abc31!important;
    border-right-style: solid!important;
    border-right-width: 1px!important;}
