@@ -36,6 +36,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <link href="/Template/css/responsive3.css" rel="stylesheet">
 <link href="/Template/css/actionbar2.css" rel="stylesheet">
 <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="/Template/css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -247,6 +248,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
     <div id="main-container">
 
     <?php include 'actionbar2.php';?>
+    <?php include 'topnavbar.php';?>
     	<div class="content">
         	<div class="container">
                 <div class="grid-filter">

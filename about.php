@@ -37,7 +37,7 @@ $workinghours="Mon-Sat 9am-5pm";
   <link href="/Template/css/responsive3.css" rel="stylesheet">
   <link href="/Template/css/actionbar2.css" rel="stylesheet">
   <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
-  <link href-"/Template/css/topnavbar.css" rel="stylesheet">
+  <link href="/Template/css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 
 

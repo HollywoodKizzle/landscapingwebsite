@@ -3352,6 +3352,7 @@ top: 25px;
 	.header-info-cols{
 		float:none;
 		text-align:center;
+		height: 34px;
 	}
 	.header-info-cols li{
 		padding-bottom:15px;
