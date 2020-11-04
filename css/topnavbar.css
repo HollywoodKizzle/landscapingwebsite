@@ -33,10 +33,9 @@
    border-top-width: 1px;}*/
 
   .topnav a:nth-of-type(6){
-   border: none;
-   border-right-color:#9abc31;
-   border-right-style: solid;
-   border-right-width: 1px;
+   border: none!important;
+   text-align: center!important;
+   
    
    }
      #free-quotek{display:none!important;}
@@ -46,7 +45,14 @@
   }
 
 
-  @media only screen and (min-width: 700px){
+  @media only screen and (min-width: 698px){
       #free-quotek{display: block!important;
       border-right: none;}
+  
+
+  .topnav a:nth-of-type(6){ 
+   border-right-color:#9abc31!important;
+   border-right-style: solid!important;
+   border-right-width: 1px!important;}
+
   }
