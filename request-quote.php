@@ -18,14 +18,14 @@
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!--Styling for the off canvas menu-->
-<link href="/Template/css/offcanvasmenu.css" rel="stylesheet" type="text/css">
+<!--<link href="/Template/css/offcanvasmenu.css" rel="stylesheet" type="text/css">-->
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">        
  
 
-
+ <link href="/Template/css/responsive3.css" rel="stylesheet">
  <style>
 
 .col-md-3{
@@ -44,18 +44,16 @@
 
 .site-logo a{
     position: relative;
-    z-index: 5;
-    display: block;
-    color: white;
-    font-size: 24px;
-    height: 50px;
-    top: 15px;
-    left: 20px;
+   
+    font-size: 17px;
+    left: 10px;
 
 }
 .site-logo{
     float: initial;
 }
+
+
 .container h1{
     font-size: 24px;
 
@@ -83,7 +81,7 @@
             	<h1>Request a Quote</h1>
             </div>
         </div>
- <!--<?php include 'offcanvasmenu.php';?>-->
+ 
 
 <div class="col-md-3 col-sm-6">
                     <div class="widget footer_widget">
