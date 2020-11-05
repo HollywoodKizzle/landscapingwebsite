@@ -34,6 +34,10 @@ height:  3em;}
 .site-logo{
 	max-width: 230px;}
 
+	.site-tagline{position: absolute;
+	left: 55%;
+	z=index: 0!important;}
+
 	
 	
 
@@ -419,7 +423,7 @@ into an "X" shaped button when the icon is clicked*/
 /*the header container's height needs to be increased*/
 @media only screen and (min-width: 768px){
     .site-logo {
-    	height: 70px;
+    	height: 48px;
     }
 }
 

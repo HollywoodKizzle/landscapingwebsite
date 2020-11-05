@@ -1246,6 +1246,7 @@ body.boxed .body{
 		width:1200px;
 		left:50%;
 		margin-left:-600px;
+
 	}
 }
 .header-wrapper{
@@ -1324,8 +1325,12 @@ body.boxed .is-sticky .main-navigation{
 	background-color:#fff;
 	width:100%;
 	position:relative;
+	height: 48px;
+
 	/*min-height: 70px;*/
 }
+
+
 .header-style3 .site-header{
 	background:none;
 	position:absolute;
