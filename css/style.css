@@ -1324,7 +1324,7 @@ body.boxed .is-sticky .main-navigation{
 	background-color:#fff;
 	width:100%;
 	position:relative;
-	min-height: 70px;
+	/*min-height: 70px;*/
 }
 .header-style3 .site-header{
 	background:none;
