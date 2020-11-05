@@ -17,7 +17,7 @@ body{
 }
 
 /*remove all breadcrumbs*/
-.breadcrumb{display: none;}
+.breadcrumb,.footer_widget div.carousel-wrapper{display: none;}
 
 #contact-info{
 	display: none!important;

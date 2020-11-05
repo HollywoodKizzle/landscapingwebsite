@@ -295,7 +295,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
                   	</div>
                     <div class="spacer-40 visible-xs"></div>
 
-                   <?php include 'actionbar.php';?>
+                   <?php include 'actionbar2.php';?>
 
                    
                     <div class="col-lg-3 col-md-4 col-sm-5">
