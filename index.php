@@ -419,7 +419,7 @@ $workinghours="Mon-Sat 9am-5pm";
                         <div class="container">
                             <div class="row unwanted">
                                 <div class="col-md-6 col-sm-6 unwanted">
-                                    <h1 class="short">Welcome to GreensKeeper</h1>
+                                    <h1 class="short"><?php include 'headerlink.php';?></h1>
                                     <p>
                                         <strong>Gardening, Landscaping and Maintenance Services</strong>
                                     </p>

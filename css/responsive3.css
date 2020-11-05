@@ -407,7 +407,9 @@ into an "X" shaped button when the icon is clicked*/
 @media only screen and (min-width: 576px){
 	    .site-logo a{
 	    	position: fixed;
-	    	left: 1.5%;
+	    	position: absolute;
+	    	/*left: -40.5%;
+	    	left: -93px;*/
 
 	    }
 }
