@@ -1290,6 +1290,7 @@ body.boxed .is-sticky .main-navigation{
     border-style: solid;
     border-color: transparent #fff transparent transparent;
     border-width: 0 40px 70px 0;
+      
 }
 .site-logo:before {
 	content:"";
@@ -1326,6 +1327,7 @@ body.boxed .is-sticky .main-navigation{
 	width:100%;
 	position:relative;
 	height: 48px;
+	max-width: 430px;
 
 	/*min-height: 70px;*/
 }
