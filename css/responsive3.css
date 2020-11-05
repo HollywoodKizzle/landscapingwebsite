@@ -35,8 +35,9 @@ height:  3em;}
 	max-width: 230px;}
 
 	.site-tagline{position: absolute;
-	left: 55%;
-	z=index: 0!important;}
+	left: 85%;
+	z-index: 0!important;
+	display: none;}
 
 	.hero-area{display: none!important;}
 
