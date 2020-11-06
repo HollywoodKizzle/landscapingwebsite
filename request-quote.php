@@ -67,8 +67,7 @@
 
 <div class="site-logo">
                    <!-- <a href="index.html"><img src="images/logo.png" alt="Logo">-->
-                   <a href="/Template/index.html">  A&M Landscaping
-                   </a>
+                   <?php include 'headerlink.php';?>
                 </div>
 
                 <div class="page-header" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">

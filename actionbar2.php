@@ -11,12 +11,12 @@
                 </div>
 
                 <div class="icon-pair debug">
-                    <a href="/Template/request-quote.php" class="icon-col nav-link align-self-center" id="call-to-action-request-quote"><i class="fas fa-clipboard" ></i></a>
+                    <a href="request-quote.php" class="icon-col nav-link align-self-center" id="call-to-action-request-quote"><i class="fas fa-clipboard" ></i></a>
                    <span id="clipboard-icon-caption" class="align-self-center">Free quote</span>
                 </div>
 
                 <div class="icon-pair debug">
-                    <a href="/Template/services.php" class="icon-col nav-link align-self-center" id="call-to-action-services-page"><i class="fas fa-tree"></i></a>
+                    <a href="services.php" class="icon-col nav-link align-self-center" id="call-to-action-services-page"><i class="fas fa-tree"></i></a>
                     <span class="align-self-center" id="tree-icon-caption">Services</span>
                 </div>
 
