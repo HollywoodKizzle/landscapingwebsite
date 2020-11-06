@@ -1,1 +1,1 @@
-<a class="debug" id="company-name" href="/Template/index.php"><span>A&M Landscaping</span></a>
+<a class="debug" id="company-name" href="../index.php"><span>A&M Landscaping</span></a>
