@@ -343,23 +343,7 @@ ol, li {
 background-size: 100vw 62.5vh;
 background-color: lightgrey;}
 
-/*1st Carousel image*/
-#carousel__slide1{background-image: url("https://via.placeholder.com/240X200.jpg?text=First+Image");}
 
-/*2nd Carousel image*/
-#carousel__slide2{
- background-image: url("https://via.placeholder.com/240X200.jpg?text=Second+Image");}
-
-
-/*3rd Carousel image*/
-#carousel__slide3{
-background-image: url("https://via.placeholder.com/240X200.jpg?text=Third+Image");} 
-
-/*4th Carousel image*/
-#carousel__slide4{
-background-image: url("https://via.placeholder.com/240X200.jpg?text=Fourth+Image");}
-
-/**/
 @media only screen and (min-width: 280px){
 	/*This rule set is responsible for  altering the three line Hamburger Icon 
 into an "X" shaped button when the icon is clicked*/
