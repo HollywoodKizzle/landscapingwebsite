@@ -343,6 +343,17 @@ ol, li {
 background-size: 100vw 62.5vh;
 background-color: lightgrey;}
 
+/*Text appearing within the carousel*/
+.carousel-text{
+	margin: 0 auto;
+	width: 40%;
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
 
 @media only screen and (min-width: 280px){
 	/*This rule set is responsible for  altering the three line Hamburger Icon 
