@@ -17,8 +17,8 @@ body{
 }
 
 /*remove all breadcrumbs*/
-.breadcrumb,.footer_widget div.carousel-wrapper{display: none;}
-
+.breadcrumb,.footer_widget div.carousel-wrapper{display: none!important;}
+.col-md-4 .footer_widget h4.widgettitle{display: none!important;}
 #contact-info{
 	display: none!important;
 }
@@ -40,7 +40,9 @@ height:  3em;}
 	display: none;}
 
 	.hero-area{display: none!important;}
+   #twitter-header{display: none;}
 
+   a[href="faqs.php"], a[href="projects-grid.php"]{display: none!important;}
 	
 	
 

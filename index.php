@@ -824,7 +824,7 @@ $workinghours="Mon-Sat 9am-5pm";
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="widget footer_widget">
-                                <h4 class="widgettitle unwanted">
+                                <h4 class="widgettitle unwanted" id="twitter-header">
                                     <i class="fa fa-twitter"></i>
                                     We are on Twitter
                                 </h4>
