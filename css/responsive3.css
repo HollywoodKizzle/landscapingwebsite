@@ -164,7 +164,6 @@ ol, li {
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
   height: 70vh;
-
   }
 
 
@@ -190,12 +189,12 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
- /* background-color: #f99;*/
+  /* background-color: #f99;*/
   /*counter-increment: item;*/
 }
 
 .carousel__slide:nth-child(even) {
-  /*background-color: #99f;*/
+  /* background-color: #99f; */
 }
 
 
@@ -289,13 +288,15 @@ ol, li {
   transform: translateY(-50%);
   border-radius: 50%;
   font-size: 0;
-  outline: 0;}
+  outline: 0;
+  z-index: 5!important;}
 
 /*The left Carousel navigation button Note that the psuedoelement 
  represents the white triangular icon*/
 .carousel::before,
 .carousel__prev {
-  left: .6em;}
+  left: .6em;
+  }
   
 
 
@@ -338,14 +339,12 @@ ol, li {
 
 /**** Carousel Images****/
 
-#carousel__slide1,#carousel__slide2,#carousel__slide3,#carousel__slide4{
-background-repeat: no-repeat;
-background-position: center top;
-background-size: 100vw 62.5vh;}
+#carousel__slide1,#carousel__slide2,#carousel__slide3,#carousel__slide4{background-repeat: no-repeat;background-position: center top;
+background-size: 100vw 62.5vh;
+background-color: lightgrey;}
 
 /*1st Carousel image*/
-#carousel__slide1{
-background-image: url("https://via.placeholder.com/240X200.jpg?text=First+Image");}
+#carousel__slide1{background-image: url("https://via.placeholder.com/240X200.jpg?text=First+Image");}
 
 /*2nd Carousel image*/
 #carousel__slide2{

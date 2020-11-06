@@ -39,7 +39,8 @@
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">  
-      <div class="carousel__snapper"></div>
+      <div class="carousel__snapper">
+      <p class="carousel-text">First Image</p></div>
         <a href="#carousel__slide4"
            class="carousel__prev">Go to last slide</a>
         <a href="#carousel__slide2"
@@ -51,6 +52,7 @@
         tabindex="0"
         class="carousel__slide">
       <div class="carousel__snapper">
+      <p class="carousel-text">Second Image</p>
       <a href="#carousel__slide1"
          class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide3"
@@ -62,6 +64,7 @@
         tabindex="0"
         class="carousel__slide">
       <div class="carousel__snapper"></div>
+      <p class="carousel-text">Third Image</p>
       <a href="#carousel__slide2"
          class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide4"
@@ -71,6 +74,7 @@
         tabindex="0"
         class="carousel__slide">
       <div class="carousel__snapper"></div>
+      <p class="carousel-text">Fourth Image</p>
       <a href="#carousel__slide3"
          class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide1"
