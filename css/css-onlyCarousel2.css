@@ -210,7 +210,8 @@ ol, li {
 .carousel__next {
   position: absolute;
   top: 0%;
-  margin-top: 37.5%;
+ /* margin-top: 8.5%;*/
+  margin-top: 108px;
   width: 2.5em;
   height: 2.5em;
   transform: translateY(-50%);
