@@ -357,29 +357,6 @@ background-color: lightgrey;}
 
 
 
-@media only screen and (min-width: 280px){
-	/*This rule set is responsible for  altering the three line Hamburger Icon 
-into an "X" shaped button when the icon is clicked*/
-#menuToggle input:checked ~ span
-{opacity: 1;
-  transform: rotate(45deg) translate(-3.05px,-.75px);
-  background: #36383F;
-}
-}
-
-@media only screen and (min-width: 330px){
-	/*This rule set is responsible for  altering the three line Hamburger Icon 
-into an "X" shaped button when the icon is clicked*/
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  /*transform: rotate(45deg) translate(-3.05px,-.25px);*/
-  
-  transform: rotate(45deg) translate(-5px, -3px);
-  background: #36383F;
-}
-}
-
 /*Readjust the position of the header*/
 @media only screen and (min-width: 285px){
 	.site-logo a{left:-2%;}
