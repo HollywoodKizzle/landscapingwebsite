@@ -344,12 +344,14 @@ background-size: 100vw 62.5vh;
 background-color: lightgrey;}
 
 /*Text appearing within the carousel*/
-.carousel-text{
-	margin: 0 auto;
-	width: 40%;
-	position: absolute;
+.carousel-text{	
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: black;
+  white-space: nowrap;
 }
 
 
