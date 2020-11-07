@@ -217,7 +217,8 @@ ol, li {
   border-radius: 50%;
   font-size: 0;
   outline: 0;
-  z-index: 5!important;}
+  z-index: 5!important;
+  display: none;}
 
 
 /*The left Carousel navigation button Note that the psuedoelement 
@@ -280,3 +281,10 @@ background-color: lightgrey;}
   white-space: nowrap;
 }
 
+/* display carousel buttons in the presence of mouse or touch-pad functionalites*/
+@media (hover: hover) and (pointer: fine) {
+    .carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next{display: block;}
+}
