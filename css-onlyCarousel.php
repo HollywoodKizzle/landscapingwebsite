@@ -39,25 +39,25 @@
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">  
-      <div class="carousel__snapper">
-      <p class="carousel-text">First Image</p></div>
+      <div class="carousel__snapper"></div>
+      <p class="carousel-text">First Image</p>
         <a href="#carousel__slide4"
            class="carousel__prev">Go to last slide</a>
         <a href="#carousel__slide2"
            class="carousel__next">Go to next slide</a>
-      
+            
     </li>
 
     <li id="carousel__slide2"
         tabindex="0"
         class="carousel__slide">
-      <div class="carousel__snapper">
+      <div class="carousel__snapper"></div>
       <p class="carousel-text">Second Image</p>
       <a href="#carousel__slide1"
          class="carousel__prev">Go to previous slide</a>
       <a href="#carousel__slide3"
          class="carousel__next">Go to next slide</a>
-         </div>
+         
     </li>  
 
     <li id="carousel__slide3"
