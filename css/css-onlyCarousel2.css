@@ -272,10 +272,10 @@ background-color: lightgrey;}
 
 /*Text appearing within the carousel*/
 .carousel-text{	
-  position: absolute;
+ /* position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%;*/
+ /* transform: translate(-50%, -50%);*/
   font-size: 24px;
   color: black;
   white-space: nowrap;
