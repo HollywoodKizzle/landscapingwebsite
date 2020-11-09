@@ -50,9 +50,9 @@
 /*background-size: 100vw 32.5vh!important;*/
 background-color: lightgrey;
 height: 200px;
-/*display: flex!important;
-  justify-content: center;
-  align-items: center;*/}
+ font-size: 24px;
+  color: black;
+  white-space: nowrap;}
 
 .carousel-control-prev,.carousel-control-next{
   /*background-color: green!important;*/
@@ -64,9 +64,3 @@ height: 200px;
   left: 50%;
   transform: translate(-50%, -50%);}
 
-/*Text appearing within the carousel*/
-.carousel-item{	
- font-size: 24px;
-  color: black;
-  white-space: nowrap;
-}
