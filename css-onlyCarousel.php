@@ -4,10 +4,10 @@
       <p class="carousel-text d-block">First Image</p>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Second slide">
+      <p class="carousel-text d-block">Second Image</p>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="..." alt="Third slide">
+      <p class="carousel-text d-block">Third Image</p>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

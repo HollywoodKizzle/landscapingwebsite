@@ -24,16 +24,11 @@ $workinghours="Mon-Sat 9am-5pm";
   ================================================== -->
         <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	    <link rel="stylesheet" href="bootstrapdemo.css"> -->
-	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 
-  
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
-        <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
-        <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
+        
         <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
         <link href="css/custom.css" rel="stylesheet" type="text/css">
         <link href="/Template/css/css-onlyCarousel2.css" rel="stylesheet">
@@ -41,6 +36,7 @@ $workinghours="Mon-Sat 9am-5pm";
         <link href="/Template/css/actionbar2.css" rel="stylesheet">
         <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
         <link href="/Template/css/topnavbar.css" rel="stylesheet">
+        	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
         
        
@@ -936,24 +932,13 @@ $workinghours="Mon-Sat 9am-5pm";
                 <i class="fa fa-angle-double-up"></i>
             </a>
         </div>
-        <script src="js/jquery-2.2.3.min.js"></script>
-        <!-- Jquery Library Call -->
-        <script src="vendor/magnific/jquery.magnific-popup.min.js"></script>
-        <!-- PrettyPhoto Plugin -->
-        <script src="js/ui-plugins.js"></script>
-        <!-- UI Plugins -->
-        <script src="js/helper-plugins.js"></script>
-        <!-- Helper Plugins -->
-        <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
-        <!-- Owl Carousel -->
-        <script src="js/bootstrap.js"></script>
-        <!-- UI -->
-        <script src="js/init.js"></script>
-        <!-- All Scripts -->
-        <script src="vendor/flexslider/js/jquery.flexslider.js"></script>
+        
         
         <script src="/Template/js/offcanvasmenu.js"></script>
- 
+ 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
+
+  
 
     </body>
 </html>
