@@ -198,8 +198,8 @@ a:focus, .btn:focus,
 	color:#3a3a3a;
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active{
-	border:2px solid #3a3a3a;
-	background:#3a3a3a;
+	/* border:2px solid #3a3a3a; */
+	/* background:#3a3a3a; */
 	color:#fff;
 }
 .btn-default.btn-transparent,

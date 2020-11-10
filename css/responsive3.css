@@ -6,12 +6,17 @@
 html{
 	font-size: 1.75vw;}
 
+
+
 body{
 	margin: 0px;
+	font-size: 16px!important;
 
 	
 
 }
+#Read-more-about{color: #9ABC31;}
+
 *{
 	z-index: 2;
 }
