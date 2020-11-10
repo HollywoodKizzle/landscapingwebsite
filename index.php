@@ -261,7 +261,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-md-4 megamenu-col">
+                                                   <!-- <div class="col-md-4 megamenu-col">
                                                         <span class="megamenu-sub-title">Latest news</span>
                                                         <div class="widget recent_posts">
                                                             <ul>
@@ -285,7 +285,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </div>
+                                                    </div>-->
                                                     <div class="col-md-5 megamenu-col">
                                                         <span class="megamenu-sub-title">Our Services</span>
                                                         <img src="http://placehold.it/900x400&amp;text=IMAGE+PLACEHOLDER" alt="">
@@ -426,7 +426,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                         <img src="http://placehold.it/900x400&amp;text=IMAGE+PLACEHOLDER" alt="">
                                     </p>
                                     <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim.</p>
-                                    <a href="#" class="btn btn-default">Read more about us</a>
+                                    <a href="#" class="btn btn-default" id="Read-more-about">Read more about us</a>
                                 </div>
                                 <div class="spacer-40 visible-xs unwanted"></div>
                                 <div class="col-md-6 col-sm-6 unwanted">
@@ -606,7 +606,7 @@ $workinghours="Mon-Sat 9am-5pm";
                             <a href="#" class="btn btn-default btn-ghost btn-light">Explore our services</a>
                         </div>
                     </div>
-                    <div class="padding-tb75 lgray-bg unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
+                   <!-- <div class="padding-tb75 lgray-bg unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
                         <div class="container">
                             <a href="#" class="btn btn-primary pull-right">Visit blog</a>
                             <h2>Latest News</h2>
@@ -717,7 +717,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="padding-tb75 accent-bg parallax-light unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
                         <div class="container">
                             <div class="text-align-center unwanted">
