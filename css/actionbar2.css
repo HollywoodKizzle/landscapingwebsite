@@ -2,13 +2,16 @@
   overflow: auto; /* Overflow due to float */
   background-color: white;
   z-index: 12;
-  height: 25vh;
+  
   height: 62px;
   /*max-height: 80px;
   min-height: 65px;*/
   border-top-color: blue;
   border-top-width: 1px;
   border-top-style: solid;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
   }
   
   
@@ -22,6 +25,7 @@
   font-size: 16px; /* Increased font size */
   height:100%;
 
+  
   }
 
   .icon-pair i{
