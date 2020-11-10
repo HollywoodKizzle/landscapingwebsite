@@ -417,7 +417,7 @@ $workinghours="Mon-Sat 9am-5pm";
                     <div class="shadow-row">
                         <div class="container">
                             <div class="row unwanted">
-                                <div class="col-md-6 col-sm-6 unwanted">
+                                <div class="col-md-6 col-sm-6 unwanted" id="subheader-index">
                                     <h1 class="short"><?php include 'headerlink.php';?></h1>
                                     <p>
                                         <strong>Gardening, Landscaping and Maintenance Services</strong>
@@ -485,7 +485,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                         <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur</p>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
+                          <!--      <div class="col-md-3 col-sm-6">
                                     <div class="feature-block">
                                         <span class="icon">
                                             <i class="fa fa-dollar"></i>
@@ -493,7 +493,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                         <h5>Simple Pricing</h5>
                                         <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur</p>
                                     </div>
-                                </div>
+                                </div>-->
                             </div>
                             <div class="spacer-50 unwanted"></div>
                         </div>
@@ -502,7 +502,7 @@ $workinghours="Mon-Sat 9am-5pm";
                     <div class="container">
                         <div class="text-align-center unwanted">
                             <h2>Services we offer</h2>
-                            <hr class="sm">
+                            <!--<hr class="sm">-->
                         </div>
                         <div class="carousel-wrapper ">
                             <div class="row">
@@ -517,7 +517,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Fall and Spring Cleanup</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -531,7 +531,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Lawn Care &amp;Services</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -545,7 +545,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Landscape Design &amp;Installation</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -559,7 +559,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Plants, Flowers, Soils and Mulches</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -573,7 +573,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Tree, Shrub &amp;Turf</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -587,7 +587,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                                     <a href="service-single.php">Gutter Cleaning</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
-                                                <a href="service-single.php" class="more">View service details</a>
+                                                <a href="services.php" class="more">View service details</a>
                                             </div>
                                         </div>
                                     </li>
@@ -603,7 +603,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                 We are your one stop location for all of<br>
                                 your outdoor needs,for both residential<br>and commercial properties.
                             </h2>
-                            <a href="#" class="btn btn-default btn-ghost btn-light">Explore our services</a>
+                            <a href="services.php" class="btn btn-default btn-ghost btn-light">Explore our services</a>
                         </div>
                     </div>
                    <!-- <div class="padding-tb75 lgray-bg unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
@@ -718,7 +718,7 @@ $workinghours="Mon-Sat 9am-5pm";
                             </div>
                         </div>
                     </div>-->
-                    <div class="padding-tb75 accent-bg parallax-light unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
+                  <!--  <div class="padding-tb75 accent-bg parallax-light unwanted" style="background-image:url(images/leaves3.png); background-repeat:repeat">
                         <div class="container">
                             <div class="text-align-center unwanted">
                                 <h2>Recently Completed Projects</h2>
@@ -783,7 +783,7 @@ $workinghours="Mon-Sat 9am-5pm";
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!-- Site Footer -->
             <div class="site-footer" id="Footer-body">
                 <div class="container">

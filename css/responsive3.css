@@ -17,6 +17,9 @@ body{
 }
 #Read-more-about{color: #9ABC31;}
 
+#subheader-index{max-width: 700px!important;
+width: 500px!important;}
+
 *{
 	z-index: 2;
 }
