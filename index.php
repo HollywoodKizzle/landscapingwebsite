@@ -426,7 +426,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                         <img src="http://placehold.it/900x400&amp;text=IMAGE+PLACEHOLDER" alt="">
                                     </p>
                                     <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim.</p>
-                                    <a href="#" class="btn btn-default" id="Read-more-about">Read more about us</a>
+                                    <a href="about.php" class="btn btn-default" id="Read-more-about">Read more about us</a>
                                 </div>
                                 <div class="spacer-40 visible-xs unwanted"></div>
                                 <div class="col-md-6 col-sm-6 unwanted">
