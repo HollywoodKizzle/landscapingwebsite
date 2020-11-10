@@ -34,10 +34,9 @@ $workinghours="Mon-Sat 9am-5pm";
         <link href="/Template/css/css-onlyCarousel2.css" rel="stylesheet">
         <link href="/Template/css/responsive3.css" rel="stylesheet">
         <link href="/Template/css/actionbar2.css" rel="stylesheet">
-        <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
         <link href="/Template/css/topnavbar.css" rel="stylesheet">
         	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
+                <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
         
        
 
