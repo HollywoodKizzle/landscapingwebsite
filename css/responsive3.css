@@ -17,9 +17,6 @@ body{
 }
 #Read-more-about{color: #9ABC31;}
 
-#subheader-index{max-width: 700px!important;
-width: 500px!important;}
-
 *{
 	z-index: 2;
 }
@@ -106,10 +103,18 @@ height:  3em;}
 	    	position: absolute;
 	    	/*left: -40.5%;
 	    	left: -93px;*/
-	    	/*left: -8%!important;*/
+	    	/*left: -8%!important;*/}
+
+	    	
+.col-md-6{
+box-sizing: content-box;
+max-width: none;
+flex-basis: 100%;}
+#subheader-index a{white-space: nowrap;}
+
 	    	
 
-	    }
+	    
 }
 /*Custom Tablet Breakpoint
 @media only screen and (min-width: 600px){
