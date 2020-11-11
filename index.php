@@ -820,6 +820,48 @@ $workinghours="Mon-Sat 9am-5pm";
                                 </nav>
                             </div>
                         </div>
+
+                               
+                                <div class="quote-teaser" id="quote-teaser1">
+                <div class="container" id="estimate-form-body">
+                    <div class="quote-teaser-title">
+					
+                        <h3>
+                            <i class="fa fa-info-circle accent-color"></i>
+                            Request an estimate
+                        </h3>
+                    </div>
+                    <form method="post" id="quoteform" name="quoteform" class="quick-quote clearfix" action="mail/quote.php">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <input name="quote-name" id="quote-name" type="text" placeholder="Your Name" class="form-control">
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <input name="quote-email" id="quote-email" type="email" placeholder="Your Email" class="form-control">
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <select name="quote-service" id="quote-service" class="form-control selectpicker">
+                                    <option>Select Service</option>
+                                    <option>Fall and Spring Cleanup</option>
+                                    <option>Lawn Care</option>
+                                    <option>Landscape Design</option>
+                                    <option>Plants, Flowers, Soils</option>
+                                    <option>Tree, Shrub, Turf</option>
+                                    <option>Gutter Cleaning</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <input id="quote-submit" name="quote-submit" type="submit" value="Submit" class="btn btn-primary btn-block">
+                            </div>
+                        </div>
+                        <div id="Quote-message" class="accent-color"></div>
+                    </form>
+               </div>
+            </div>
+           </div>
+
+
+
                         <div class="col-md-3 col-sm-6">
                             <div class="widget footer_widget">
                                 <h4 class="widgettitle unwanted" id="twitter-header">

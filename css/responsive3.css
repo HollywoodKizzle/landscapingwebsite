@@ -17,6 +17,12 @@ body{
 }
 #Read-more-about{color: #9ABC31;}
 
+#quoteform .row{flex-direction: column;}
+
+#quoteform .row .col-md-3{max-width: none;}
+
+.quote-teaser h3{background-color:none;}
+
 *{
 	z-index: 2;
 }
