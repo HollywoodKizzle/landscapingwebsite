@@ -1,40 +1,39 @@
 
 
-
+ 
+* {
+  -ms-overflow-style: none;}
 
 * {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
-}
+  scrollbar-width: 0px;}
+
 
 *::-webkit-scrollbar {
-  width: 0;
-}
+  width: 0;}
+
 
 *::-webkit-scrollbar-track {
-  background: transparent;
-}
+  background: transparent;}
+
 
 *::-webkit-scrollbar-thumb {
   background: transparent;
-  border: none;
-}
+  border: none;}
 
 
-* {
-  -ms-overflow-style: none;
-}
+
+
 
 
 /*This rules targets the conatiner for the entire Carousel*/
 .carousel {
   position: relative;
-  /*padding-top: 75%;*/
   filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;
+  perspective: 100px;}
   
-  }
+  
 
 
 

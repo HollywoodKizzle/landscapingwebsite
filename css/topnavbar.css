@@ -2,12 +2,9 @@
 
 
 .topnav{
-        overflow: hidden;
-        display:none;
-        width: 100%;}
-
-
-
+  overflow: hidden;
+  display:none;
+  width: 100%;}
 
 
 .topnav a {
@@ -20,33 +17,26 @@
   font-size: 17px;
   border-right: solid 1px #9abc31;
   border-top: solid 1px #9abc31;
-  border-bottom: solid 1px #9abc31;
-  }
-
-  /*.topnav a:nth-of-type(4),.topnav a:nth-of-type(5)
-  { border-top-color:#9abc31;
-   border-top-style: solid;
-   border-top-width: 1px;}*/
-
-  #pricing-link{
-  border-right: solid 1px #9abc31;
-   /*position: relative;
-   left: 3.5%;*/}
+  border-bottom: solid 1px #9abc31;}
   
-   
-   
-   
-   
-     #free-quotek{display:none!important;}
 
-  @media only screen and (min-width: 600px){
-    .topnav{display: block;}
-  }
+#pricing-link{
+  border-right: solid 1px #9abc31;}
+  
+
+#free-quotek{
+  display:none!important;}
+
+@media only screen and (min-width: 600px){
+  .topnav{
+    display: block;}}
+  
 
 
-  @media only screen and (min-width: 700px){
-      #free-quotek{display: inline-block!important;
-      }
+@media only screen and (min-width: 700px){
+  #free-quotek{
+    display: inline-block!important;}
+      
   
    #pricing-link{ 
    border-right-color:#9abc31!important;
