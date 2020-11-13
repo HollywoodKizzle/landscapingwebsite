@@ -10,18 +10,27 @@ html{
 
 body{
 	margin: 0px;
-	font-size: 16px!important;
+	font-size: 16px!important;}
+
+.feature-block h5{
+	font-size:14px;}
 
 	
+.connected-blocks h5{
+	font-size: 14px;}
 
-}
-#Read-more-about{color: #9ABC31;}
+#company-name{
+	font-size: 24px;}
+
+#Read-more-about{
+    color: #9ABC31;
+    font-size: 16px;}
 
 
 
 .quote-teaser h3{
     background-color:none;
-    left: 4%;}
+    right: 12px;}
 
 
 #quoteform .row{
@@ -41,9 +50,13 @@ body{
     border: none;
     color: #9ABC31;}
 
+.grid-item-inner a[href="service-single.php"]{
+	font-size:19px;
+	color: #9ABC31;}
+
 
 h3{font-size: 18px;}
-h2{font-size: 16px;}
+h2{font-size: 24px;}
 
 *{
 	z-index: 2;
@@ -86,7 +99,7 @@ height:  3em;}
     position: absolute;
     left: -6%;
     bottom:;
-    font-size: 4rem;
+    font-size: 4rem!important;
     z-index:0;
     display: block;
     color: white; 
@@ -112,7 +125,7 @@ height:  3em;}
                                          
 /*cap the size of the Header's font*/
 @media only screen and (min-width: 367px){
-	 .site-logo a{ font-size: 25.69px;}
+	 .site-logo a{ font-size: 25.69px!important;}
 }
 
 /*cap the font-size of the offcanvas menu's links
@@ -163,7 +176,7 @@ flex-basis: 100%;}
 }
 
 
-
+.debugguer{background-color: yellow;}
 
 
 

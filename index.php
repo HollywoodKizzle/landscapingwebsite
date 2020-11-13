@@ -442,10 +442,10 @@ $workinghours="Mon-Sat 9am-5pm";
                                             <i class="fa fa-flag"></i>
                                         </span>
                                         <h5>Our History</h5>
-                                        <h3>
+                                        <!--<h3>
                                             Quisque tempor dolor <a href="#">sit amet</a>
                                             tellus malesuada
-                                        </h3>
+                                        </h3>-->
                                         <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim.</p>
                                     </div>
                                 </div>

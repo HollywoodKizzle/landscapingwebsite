@@ -1922,6 +1922,7 @@ top: 25px;
 	margin:0 auto;
 	text-shadow:1px 1px 0 rgba(0,0,0,.1);
 	display:inline-block;
+	font-size: 16px!important;
 }
 .stacked-title-light{
 	color:#333;
@@ -3300,6 +3301,9 @@ top: 25px;
 		font-size:38px!important;
 	}
 
+	#estimate-form-body{
+		/*width: 920px;*/}
+
 	/*Remove mobile view icons from tablet views*/
 #call-to-action-bar{
 	display: none;
@@ -3724,7 +3728,7 @@ top: 25px;
 
 .item{
 	background-size: 100% 520px;
-	height: 520px;
+	height: 320px;
 	width: 100%!important;
 	border-style: solid;
 	border-width: 2px;
