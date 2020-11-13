@@ -1446,6 +1446,12 @@ ul.header-info-cols li .fa{}
 	border: none;
 }
 
+ .quote-teaser form.quick-quote{
+    	margin-left:0!important;
+    	padding-right: 0!important;
+    	padding-left:0!important;
+    	padding-top: 0px!important;}
+
 #phone-info .icon-col, #hours-info .icon-col{
 	width:40px;
 	height:40px;
@@ -1773,7 +1779,7 @@ top: 25px;
 }
 .quote-teaser-title{
 	width:300px;
-	float:left;
+	/* float:left; */
 	position:relative;
 }
 .quote-teaser-title:before {
@@ -1811,7 +1817,7 @@ top: 25px;
 	position:relative;
 }
 .quote-teaser form.quick-quote{
-	padding-top:30px;
+	/* padding-top:30px; */
 	padding-left:30px;
 	margin-left:300px;
 }
@@ -3302,8 +3308,17 @@ top: 25px;
 		font-size:38px!important;
 	}
 
+    .quote-teaser form.quick-quote{
+    	margin-left:0;
+    	padding-right: 0;
+    	padding-left:0;
+    	padding-top: 0px;}
+
 	#estimate-form-body{
-		width: 360px;}
+		width: 560px;
+		}
+
+	
 
 	/*Remove mobile view icons from tablet views*/
 #call-to-action-bar{

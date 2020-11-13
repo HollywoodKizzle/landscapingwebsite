@@ -30,7 +30,8 @@ body{
 
 .quote-teaser h3{
     background-color:none;
-    right: 12px;}
+    right: 12px;
+    }
 
 .quote-teaser h3:before,.quote-teaser h3:after{display: none;}
 
