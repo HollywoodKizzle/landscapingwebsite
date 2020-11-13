@@ -508,12 +508,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                 <ul class="owl-carousel carousel-fw" id="services-slider" data-columns="4" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="4" data-items-desktop-small="3" data-items-tablet="2" data-items-mobile="1">
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="service-single.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Fall and Spring Cleanup</a>
+                                                    <a href="services.php">Fall and Spring Cleanup</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
@@ -522,12 +522,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </li>
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="services.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Lawn Care &amp;Services</a>
+                                                    <a href="services.php">Lawn Care &amp;Services</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
@@ -536,12 +536,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </li>
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="service-single.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Landscape Design &amp;Installation</a>
+                                                    <a href="services.php">Landscape Design &amp;Installation</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
@@ -550,12 +550,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </li>
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="service-single.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Plants, Flowers, Soils and Mulches</a>
+                                                    <a href="services.php">Plants, Flowers, Soils and Mulches</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
@@ -564,12 +564,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </li>
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="service-single.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Tree, Shrub &amp;Turf</a>
+                                                    <a href="services.php">Tree, Shrub &amp;Turf</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
@@ -578,12 +578,12 @@ $workinghours="Mon-Sat 9am-5pm";
                                     </li>
                                     <li class="item">
                                         <div class="service-grid-item grid-item format-standard">
-                                            <a href="service-single.php" class="media-box">
+                                            <!--<a href="service-single.php" class="media-box">
                                                 <img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                            </a>
+                                            </a>-->
                                             <div class="grid-item-inner">
                                                 <h4>
-                                                    <a href="service-single.php">Gutter Cleaning</a>
+                                                    <a href="services.php">Gutter Cleaning</a>
                                                 </h4>
                                                 <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada...</p>
                                                 <a href="services.php" class="more">View service details</a>
