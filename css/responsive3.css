@@ -32,6 +32,9 @@ body{
     background-color:none;
     right: 12px;}
 
+.quote-teaser h3:before,.quote-teaser h3:after{display: none;}
+
+
 
 #quoteform .row{
     flex-direction: column;}
@@ -173,6 +176,13 @@ flex-basis: 100%;}
     .site-logo {
     	height: 48px;
     }
+}
+
+
+@media only screen and (min-width: 992px){
+	.quote-teaser-title{
+		width: 250px;
+		margin-right: 0px;}
 }
 
 

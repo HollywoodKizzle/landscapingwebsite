@@ -1794,6 +1794,7 @@ top: 25px;
     border-style: solid;
     border-color: transparent #404040 transparent transparent;
     border-width: 0 50px 50px 0;
+    background-color: blue;
 }
 .quote-teaser h3:after {
     position: absolute;
@@ -3302,7 +3303,7 @@ top: 25px;
 	}
 
 	#estimate-form-body{
-		/*width: 920px;*/}
+		width: 360px;}
 
 	/*Remove mobile view icons from tablet views*/
 #call-to-action-bar{
