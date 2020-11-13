@@ -3,51 +3,41 @@
 	border-width: 1px;
 	border-color: blue;
 	border-style: solid;}*/
+
+*{
+	z-index: 2;}
+
+
 html{
 	font-size: 1.75vw;}
-
 
 
 body{
 	margin: 0px;
 	font-size: 16px!important;}
 
-.feature-block h5{
+
+h2{
+    font-size: 24px;}
+
+
+h3{
+	font-size: 18px;}
+
+
+.feature-block h5,.connected-blocks h5{
 	font-size:14px;}
-
-	
-.connected-blocks h5{
-	font-size: 14px;}
-
-#company-name{
-	font-size: 24px;}
-
-#Read-more-about{
-    color: #9ABC31;
-    font-size: 16px;}
-
 
 
 .quote-teaser h3{
     background-color:none;
-    right: 12px;
-    }
-
-.quote-teaser h3:before,.quote-teaser h3:after{display: none;}
+    right: 12px;}
+    
 
 
+.quote-teaser h3:before,.quote-teaser h3:after{
+	display: none;}
 
-#quoteform .row{
-    flex-direction: column;}
-
-#quoteform .row .col-md-3{
-    max-width: none;}
-
-
-#quoteform .row input, #quoteform .row select{
-    font-size: 12px;
-    width:67vw;
-    max-width: 330px;}
 
 .text-align-center .btn{
     font-size: 16px;
@@ -58,15 +48,34 @@ body{
 	font-size:19px;
 	color: #9ABC31;}
 
-.carousel-wrapper:{
+.carousel-wrapper{
 	overflow: visible!important;}
 
-h3{font-size: 18px;}
-h2{font-size: 24px;}
 
-*{
-	z-index: 2;
-}
+#company-name{
+	font-size: 24px;}
+
+
+#Read-more-about{
+    color: #9ABC31;
+    font-size: 16px;}
+
+
+
+
+#quoteform .row{
+    flex-direction: column;}
+
+
+#quoteform .row .col-md-3{
+    max-width: none;}
+
+
+#quoteform .row input, #quoteform .row select{
+    font-size: 12px;
+    width:67vw;
+    max-width: 330px;}
+
 
 /*remove all breadcrumbs*/
 .breadcrumb,.footer_widget div.carousel-wrapper{display: none!important;}
