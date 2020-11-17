@@ -421,9 +421,9 @@ $workinghours="Mon-Sat 9am-5pm";
                                     <p>
                                         <strong>Gardening, Landscaping and Maintenance Services</strong>
                                     </p>
-                                    <p>
+                                   <!-- <p>
                                         <img src="http://placehold.it/900x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                                    </p>
+                                    </p>-->
                                     <p>Vestibulum quam nisi, pretium a nibh sit amet, consectetur hendrerit mi. Aenean imperdiet lacus sit amet elit porta, et malesuada erat bibendum. Cras sed nunc massa. Quisque tempor dolor sit amet tellus malesuada, malesuada iaculis eros dignissim.</p>
                                     <a href="about.php" class="btn btn-default" id="Read-more-about">Read more about us</a>
                                 </div>
