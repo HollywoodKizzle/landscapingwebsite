@@ -32,7 +32,10 @@ a[href="faqs.php"], a[href="projects-grid.php"]{
 
 
 .carousel-wrapper{
-	overflow: visible!important;}
+	overflow: visible!important;
+	/* border: none!important; */
+	border-block-start-color: transparent;
+	}
 
 .hero-area{
 	display: none!important;}
