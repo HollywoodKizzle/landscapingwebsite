@@ -33,7 +33,12 @@
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;}
   
-  
+ 
+.carousel-wrapper{
+	overflow: visible!important;
+	/* border: none!important; */
+	border-block-start-color: transparent;}
+	
 
 
 

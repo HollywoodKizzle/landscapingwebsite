@@ -398,7 +398,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
                         <ul>
                         	<li><a href="book-service.php">Book a Service</a></li>
                         	<li><a href="services.php">All Services</a></li>
-                        	<li class="unwanted"><a href="faqs.php">FAQs</a></li>
+                        	<li class="removal"><a href="faqs.php">FAQs</a></li>
                         	<li><a href="pricing.php">Our Pricing</a></li>
                         	<li class="unwanted"><a href="projects-grid.php">Completed Projects</a></li>
                         </ul>

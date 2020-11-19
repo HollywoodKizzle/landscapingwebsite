@@ -25,21 +25,9 @@ h3{
 	font-size: 18px;}
 
 
-a[href="faqs.php"], a[href="projects-grid.php"]{
+a[href="projects-grid.php"],.hero-area,.removal{
     display: none!important;}
 	
-
-
-
-.carousel-wrapper{
-	overflow: visible!important;
-	/* border: none!important; */
-	border-block-start-color: transparent;
-	}
-
-.hero-area{
-	display: none!important;}
-
 
 .quote-teaser h3{
     background-color:none;

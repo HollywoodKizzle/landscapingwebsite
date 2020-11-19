@@ -198,7 +198,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                             <a href="pricing.php">Pricing</a>
                                         </li>
                                         <li>
-                                            <a href="faqs.php">FAQs</a>
+                                            <a href="faqs.php" class="removal">FAQs</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -813,7 +813,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                             <a href="services.php">All Services</a>
                                         </li>
                                         <li class="unwanted">
-                                            <a href="faqs.php">FAQs</a>
+                                            <a href="faqs.php" class="removal">FAQs</a>
                                         </li>
                                         <li>
                                             <a href="pricing.php">Our Pricing</a>
