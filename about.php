@@ -79,9 +79,13 @@ $workinghours="Mon-Sat 9am-5pm";
     display: none;
 }
 #staff-image-caption{
-    position: absolute;
-    top: -115px;
+   /* position: absolute;
+    top: -115px;*/
+    font-size: 24px;
+    position: relative;
+    left:.5em;
     z-index: 2;
+   /* max-width: 251px;*/
 }
 
 .col-md-9{
@@ -106,6 +110,11 @@ $workinghours="Mon-Sat 9am-5pm";
 }
  
 .page-header.dark h1{ display: none;}
+
+@media only screen and (max-width: 416px){
+    #staff-image-caption{
+        width: 251px}}
+
 
 </style>
 <!-- Color Style -->
@@ -287,10 +296,11 @@ $workinghours="Mon-Sat 9am-5pm";
             	<div class="row">
                 	<div class="col-md-9 col-sm-7">
                     	<!--<img src="/Pictures/lawn-care-staff-image.jpg" alt="" class="align-left" id="staff-image">-->
+                    	<h2 id="staff-image-caption">The lovely staff of <a href="index.php"> <span class="accent-color">A&M Landscaping</span></a></h2>
                     	<div id="Placeholder-Staff-Image">
                     	   <p>Image of Staff goes here</p>
                        </div>
-                        <h2 id="staff-image-caption">The lovely staff of<br> <a href="index.php"> <span class="accent-color">A&M Landscaping</span></a></h2>
+                        <!--<h2 id="staff-image-caption">The lovely staff of<br> <a href="index.php"> <span class="accent-color">A&M Landscaping</span></a></h2>-->
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor lacinia diam quis imperdiet. Proin vitae iaculis nisl. Cras eleifend quam lectus, sed bibendum libero convallis at. Nulla sagittis convallis neque at scelerisque. Pellentesque placerat bibendum magna, semper accumsan sem congue nec. Etiam viverra, ipsum vel suscipit varius, neque odio suscipit orci, et molestie metus mi a dui. Sed eu risus vel lacus varius varius. Vivamus blandit arcu quis turpis molestie, vulputate vulputate mi ullamcorper. Nunc lacinia eget libero ac cursus. Ut laoreet magna vitae lorem ornare scelerisque. Sed gravida imperdiet leo, ac mollis urna venenatis sit amet. Sed vitae lacus in libero tempor elementum. Cras eleifend hendrerit velit, vel tincidunt enim ornare nec. Proin nec purus leo.</p>
                         <div class="spacer-30"></div>
                        <div class="unwanted"> <hr class="sm">
