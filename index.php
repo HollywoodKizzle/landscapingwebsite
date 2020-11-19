@@ -819,7 +819,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                             <a href="pricing.php">Our Pricing</a>
                                         </li>
                                         <li class="unwanted">
-                                            <a href="projects-grid.php">Completed Projects</a>
+                                            <a href="projects-grid.php" class="removal">Completed Projects</a>
                                         </li>
                                     </ul>
                                 </nav>
