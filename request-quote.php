@@ -73,7 +73,7 @@
                 <div class="page-header" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
         	<div class="container">
                 <!-- Breadcrumb -->
-                <ol class="breadcrumb">
+                <ol class="breadcrumb removal">
                     <li><a href="index.html">Home</a></li>
                     <li class="active">Request a Quote</li>
                 </ol>

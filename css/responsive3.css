@@ -25,7 +25,7 @@ h3{
 	font-size: 18px;}
 
 
-.hero-area,.removal{
+.removal,.quote-teaser h3:before,.quote-teaser h3:after{
     display: none!important;}
 	
 
@@ -33,11 +33,6 @@ h3{
     background-color:none;
     right: 12px;}
     
-
-
-.quote-teaser h3:before,.quote-teaser h3:after{
-	display: none;}
-
 
 .text-align-center .btn{
     font-size: 16px;
@@ -73,11 +68,6 @@ h3{
 	color: white;}
 
 
-/*Removal of the greenskeepers logo in the top header*/ 
-.site-logo a img{
-	display: none;}
-
-
 .grid-item-inner a[href="services.php"]{
 	font-size:19px;
 	color: #9ABC31;
@@ -98,7 +88,7 @@ h3{
 
 
 /*remove all breadcrumbs*/
-.breadcrumb,.footer_widget div.carousel-wrapper{
+.footer_widget div.carousel-wrapper{
 	display: none!important;}
 
 

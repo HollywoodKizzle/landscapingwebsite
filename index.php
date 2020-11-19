@@ -882,7 +882,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                     <i class="fa fa-comment"></i>
                                     Happy Clients
                                 </h4>
-                                <div class="carousel-wrapper">
+                                <div class="carousel-wrapper removal">
                                     <div class="row">
                                         <ul class="owl-carousel carousel-fw" id="testimonials-slider" data-columns="1" data-autoplay="" data-pagination="yes" data-arrows="no" data-single-item="no" data-items-desktop="1" data-items-desktop-small="1" data-items-tablet="1" data-items-mobile="1">
                                             <li class="item">

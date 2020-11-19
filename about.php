@@ -276,7 +276,7 @@ $workinghours="Mon-Sat 9am-5pm";
     	<div class="page-header dark">
         	<div class="container">
                 <!-- Breadcrumb -->
-                <ol class="breadcrumb">
+                <ol class="breadcrumb removal">
                     <li><a href="index.php">Home</a></li>
                     <li class="active">About Us</li>
                 </ol>
