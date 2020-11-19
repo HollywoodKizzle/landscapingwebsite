@@ -49,7 +49,12 @@ $workinghours="Mon-Sat 9am-5pm";
         <!-- Modernizr -->
 		<script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 		<!--Removal of unwanted de3fault Template elements and content-->
-		    
+	    <style>
+            @media only screen and (min-width: 768px){
+                .item{height: 200px;}}            
+                
+
+	    </style>  	    
     </head>
     <body class="home">
         <!--[if lt IE 7]>

@@ -92,7 +92,12 @@ a[href="faqs.php"], a[href="projects-grid.php"]{
 
 .grid-item-inner a[href="services.php"]{
 	font-size:19px;
-	color: #9ABC31;}
+	color: #9ABC31;
+	font-weight: 700;}
+
+.service-grid-item a.more{
+	font-weight: 500;
+	font-size: 14px;}
 
 
 .feature-block h5,.connected-blocks h5{
