@@ -49,6 +49,23 @@ $workinghours="Mon-Sat 9am-5pm";
     display: block;
 }
 */
+
+#Placeholder-Staff-Image{
+    background-color: lightgrey;
+    height: 200px;
+    position: relative;
+    }
+
+
+#Placeholder-Staff-Image p{position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size:18px;
+  width: 200px;}
+
+
 #staff-image{
     height: 320px!important;
     position: relative;
@@ -269,7 +286,10 @@ $workinghours="Mon-Sat 9am-5pm";
         	<div class="container">
             	<div class="row">
                 	<div class="col-md-9 col-sm-7">
-                    	<img src="/Pictures/lawn-care-staff-image.jpg" alt="" class="align-left" id="staff-image">
+                    	<!--<img src="/Pictures/lawn-care-staff-image.jpg" alt="" class="align-left" id="staff-image">-->
+                    	<div id="Placeholder-Staff-Image">
+                    	   <p>Image of Staff goes here</p>
+                       </div>
                         <h2 id="staff-image-caption">The lovely staff of<br> <a href="index.php"> <span class="accent-color">A&M Landscaping</span></a></h2>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor lacinia diam quis imperdiet. Proin vitae iaculis nisl. Cras eleifend quam lectus, sed bibendum libero convallis at. Nulla sagittis convallis neque at scelerisque. Pellentesque placerat bibendum magna, semper accumsan sem congue nec. Etiam viverra, ipsum vel suscipit varius, neque odio suscipit orci, et molestie metus mi a dui. Sed eu risus vel lacus varius varius. Vivamus blandit arcu quis turpis molestie, vulputate vulputate mi ullamcorper. Nunc lacinia eget libero ac cursus. Ut laoreet magna vitae lorem ornare scelerisque. Sed gravida imperdiet leo, ac mollis urna venenatis sit amet. Sed vitae lacus in libero tempor elementum. Cras eleifend hendrerit velit, vel tincidunt enim ornare nec. Proin nec purus leo.</p>
                         <div class="spacer-30"></div>
