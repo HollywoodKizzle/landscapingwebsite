@@ -34,10 +34,10 @@ $workinghours="Mon-Sat 9am-5pm";
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!--Styling shared sitewide-->
-  <link href="/Template/css/responsive3.css" rel="stylesheet">
-  <link href="/Template/css/actionbar2.css" rel="stylesheet">
-  <link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
-  <link href="/Template/css/topnavbar.css" rel="stylesheet">
+  <link href="css/responsive3.css" rel="stylesheet">
+  <link href="css/actionbar2.css" rel="stylesheet">
+  <link href="css/offcanvasmenu2.css" rel="stylesheet">
+  <link href="css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 
 
@@ -525,6 +525,6 @@ $workinghours="Mon-Sat 9am-5pm";
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="/Template/js/offcanvasmenu.js"></script>
+<script src="js/offcanvasmenu.js"></script>
 </body>
 </html>
