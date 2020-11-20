@@ -46,17 +46,17 @@ $workinghours="Mon-Sat 9am-5pm";?>
 
 <style>
 
-/*Remove the default Template background*/
+/*Remove the default Template background
 .page-header{
     display: none;
-}
+}*/
 
 
-/*Remove the action bar so the user can focus exclusively on the form*/
+/*Remove the action bar so the user can focus exclusively on the form
 #main-nav-menu{
     display: none;
 }
-
+*/
 .site-footer{
     display: block;
 }
@@ -71,7 +71,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
     bottom: 10px;
 }*/
 
-.unwanted, .spacer-60{
+.unwanted{
     display: none;
 }
 
@@ -86,17 +86,18 @@ bottom: 170px;
 
 
 }
-
+/*
 .footer_widget nav ul li a{
 	color: #9ABC31!important;
-}
+}*/
 
+/*
 .footer-heading{font-size: 20px!important;
-/*color: white!important;*/}
-
+color: white!important;}*/
+/*
 @media only screen (min-widht: 480px){
     .content{
-        padding:0;}}
+        padding:0;}}*/
 </style>
 </head>
 <body>
@@ -248,7 +249,7 @@ bottom: 170px;
     <?php include 'offcanvasmenu.php'?>
     <!-- Start Hero Area -->
     <div class="hero-area">
-    	<div class="page-header" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
+    	<div class="page-header removal" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
         	<div class="container">
                 <!-- Breadcrumb -->
                 <ol class="breadcrumb removal">
@@ -262,7 +263,7 @@ bottom: 170px;
     <!-- Main Content -->
     <div id="main-container">
 
-<?php include 'actionbar2.php';?>
+<!--<?php include 'actionbar2.php';?>-->
 
         <h2 id="form-heading">Book a Service</h1>
     	<div class="content padding-b0">
@@ -385,7 +386,7 @@ bottom: 170px;
                     </div>
                 </div>
             </div>
-            <div class="spacer-60"></div>
+            <div class="spacer-60 removal"></div>
             <div class="lgray-bg padding-tb45 unwanted">
             	<div class="container">
                 	<div class="row">
