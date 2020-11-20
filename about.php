@@ -272,7 +272,7 @@ $workinghours="Mon-Sat 9am-5pm";
     <!-- End Header -->
     <!-- Start Hero Area -->
     <?php include 'offcanvasmenu.php';?>
-    <div class="hero-area">
+    <div class="hero-area removal">
     	<div class="page-header dark">
         	<div class="container">
                 <!-- Breadcrumb -->
