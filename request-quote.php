@@ -44,13 +44,14 @@
 
 .site-logo a{
     position: relative;
-   
     font-size: 17px;
     left: 10px;
+   /* max-width: 207px;*/
 
 }
 .site-logo{
     float: initial;
+    max-width: 320px;
 }
 
 
@@ -58,8 +59,20 @@
     font-size: 24px;
 
 }
+@media only screen and (min-width: 345px){
+    .site-logo a{
+        font-size: 24px!important;}}
 
 
+
+@media only screen and (min-width: 767px){
+    .form-control{
+        width: 737px;}}
+
+
+@media only screen and (min-width: 992px){
+    h4.widgettitle{
+        width: 458px;}}
  </style>      
 </head>
 
@@ -70,7 +83,7 @@
                    <?php include 'headerlink.php';?>
                 </div>
 
-                <div class="page-header" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
+                <div class="page-header removal" style="background-image:url(http://placehold.it/1400x300&amp;text=IMAGE+PLACEHOLDER); background-repeat:no-repeat; background-position:center bottom;">
         	<div class="container">
                 <!-- Breadcrumb -->
                 <ol class="breadcrumb removal">
