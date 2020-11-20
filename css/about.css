@@ -1,3 +1,10 @@
+.unwanted{
+    display: none;}
+
+
+.col-md-9{
+    top: 50px;}
+
 
 #Placeholder-Staff-Image{
     background-color: lightgrey;
@@ -15,10 +22,6 @@
     width: 200px;}
 
 
-.unwanted{
-    display: none;}
-
-
 #staff-image-caption{
     font-size: 24px;
     position: relative;
@@ -26,12 +29,6 @@
     z-index: 2;}
 
 
-.col-md-9{
-    top: 50px;}
-
-
-
- 
 @media only screen and (max-width: 416px){
     #staff-image-caption{
         width: 251px}}

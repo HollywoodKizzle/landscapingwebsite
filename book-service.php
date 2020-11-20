@@ -32,8 +32,8 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
-<link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/responsive3.css" rel="stylesheet">
+<link href="css/offcanvasmenu2.css" rel="stylesheet">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
@@ -82,7 +82,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
 }
 .row .col-md-8, .connected-blocks, .site-footer, .site-footer-bottom{
 position: relative;
-bottom: 220px;
+bottom: 170px;
 
 
 }
@@ -92,7 +92,11 @@ bottom: 220px;
 }
 
 .footer-heading{font-size: 20px!important;
-color: white!important;}
+/*color: white!important;*/}
+
+@media only screen (min-widht: 480px){
+    .content{
+        padding:0;}}
 </style>
 </head>
 <body>
@@ -300,7 +304,7 @@ color: white!important;}
                 <div class="spacer-30"></div>
                 <div class="row">
                 	<div class="col-md-8 col-sm-7">
-                    	<h3 id="form-caption">Just fill out this quick form</h3>
+                    	<h3 id="form-caption" class="removal">Just fill out this quick form</h3>
             			<p>We would be delighted to serve you with our services, just use the form below or choose the services you are interested in and we will be in touch with you in few hours. We’re available from Monday to Saturday, 06:00-18:00 to take your call.</p>
                 		<div class="spacer-20"></div>
                         <form method="post" id="book-service-form" name="book-service-form" class="book-service-form clearfix" action="mail/book-service.php">
@@ -532,6 +536,6 @@ color: white!important;}
 	$('#service-time').timepicker({defaultTime: false, showMeridian: false});
 	$('#service-date').datepicker();
 </script>
-<script src="/Template/js/offcanvasmenu.js"></script>
+<script src="js/offcanvasmenu.js"></script>
 </body>
 </html>
