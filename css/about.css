@@ -1,0 +1,45 @@
+
+#Placeholder-Staff-Image{
+    background-color: lightgrey;
+    height: 200px;
+    position: relative;
+    }
+
+
+#Placeholder-Staff-Image p{position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size:18px;
+  width: 200px;}
+
+
+.unwanted{
+    display: none;
+}
+#staff-image-caption{
+    font-size: 24px;
+    position: relative;
+    left:.5em;
+    z-index: 2;}
+
+
+.col-md-9{
+    top: 50px;
+}
+
+
+.sidebar-widget ul li a{
+  color: #A1C040;
+}
+
+.footer_widget nav ul li a{
+	color: #9ABC31!important;
+}
+ 
+
+
+@media only screen and (max-width: 416px){
+    #staff-image-caption{
+        width: 251px}}

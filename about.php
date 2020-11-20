@@ -38,17 +38,13 @@ $workinghours="Mon-Sat 9am-5pm";
   <link href="css/actionbar2.css" rel="stylesheet">
   <link href="css/offcanvasmenu2.css" rel="stylesheet">
   <link href="css/topnavbar.css" rel="stylesheet">
+  <link href="css/about.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 
 
 <!--SCRIPT FOR FONT AWESOME ICONS-->
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 <style>
-/*
-#main-container{
-    display: block;
-}
-*/
 
 #Placeholder-Staff-Image{
     background-color: lightgrey;
@@ -66,12 +62,6 @@ $workinghours="Mon-Sat 9am-5pm";
   width: 200px;}
 
 
-#staff-image{
-    height: 320px!important;
-    position: relative;
-    bottom:30px;
-    z-index: 0;
-}
 
 
 
@@ -79,27 +69,18 @@ $workinghours="Mon-Sat 9am-5pm";
     display: none;
 }
 #staff-image-caption{
-   /* position: absolute;
-    top: -115px;*/
     font-size: 24px;
     position: relative;
     left:.5em;
-    z-index: 2;
-   /* max-width: 251px;*/
-}
+    z-index: 2;}
+
 
 .col-md-9{
     top: 50px;
 }
-.testimonial-block, .carousel-wrapper{
-    display: none;
-}
 
 
-/*removal of certain links from About Us sidebar*/
-#FAQ-link, #Book-service-link, #Brochure-button, #Download-button{
-    display: none;
-}
+
 
 .sidebar-widget ul li a{
   color: #A1C040;
@@ -109,7 +90,7 @@ $workinghours="Mon-Sat 9am-5pm";
 	color: #9ABC31!important;
 }
  
-.page-header.dark h1{ display: none;}
+
 
 @media only screen and (max-width: 416px){
     #staff-image-caption{
@@ -306,7 +287,7 @@ $workinghours="Mon-Sat 9am-5pm";
                        <div class="unwanted"> <hr class="sm">
                         <h2>Our Team</h2>-->
                         <p>Sed et dapibus erat, eget sollicitudin lacus. Etiam nec nisl nec velit iaculis ultrices. Phasellus neque arcu, rutrum ut quam et, consectetur porta libero. Morbi porttitor nunc ac ex consequat pulvinar.</p></div>
-                        <div class="carousel-wrapper">
+                        <div class="carousel-wrapper removal">
                             <div class="row">
                                 <ul class="owl-carousel carousel-fw" id="team-slider" data-columns="2" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="2" data-items-desktop-small="1" data-items-tablet="1" data-items-mobile="1">
                                     <li class="item">
@@ -347,9 +328,9 @@ $workinghours="Mon-Sat 9am-5pm";
                     	<div class="widget sidebar-widget widget_custom_menu">
                         	<ul>
                             	<li class="active"><a href="about.php">About us</a></li>
-                            	<li id="Book-service-link"><a href="book-service.php">Book a service</a></li>
+                            	<li id="Book-service-link" class="removal"><a href="book-service.php">Book a service</a></li>
                             	<li><a href="pricing.php">Pricing</a></li>
-                            	<li id="FAQ-link"><a href="faqs.php">Frequently asked questions</a></li>
+                            	<li id="FAQ-link" class="removal"><a href="faqs.php">Frequently asked questions</a></li>
                             	<li><a href="contact.php">Contact us</a></li>
                             </ul>
                         </div>
@@ -367,15 +348,15 @@ $workinghours="Mon-Sat 9am-5pm";
                             </div>
                        	</div>
                     	<div class="widget sidebar-widget text_widget">
-                        	<a href="#" class="btn btn-primary btn-block" id="Download-button"><i class="fa fa-file-pdf-o fa-2x"></i> Download price list</a>
-                        	<a href="#" id="Brochure-button" class="btn btn-primary btn-block"><i class="fa fa-file-pdf-o fa-2x"></i> Download brochure</a>
+                        	<a href="#" class="btn btn-primary btn-block removal" id="Download-button"><i class="fa fa-file-pdf-o fa-2x"></i> Download price list</a>
+                        	<a href="#" id="Brochure-button" class="btn btn-primary btn-block removal"><i class="fa fa-file-pdf-o fa-2x"></i> Download brochure</a>
                         </div>
                         <div class="widget sidebar-widget">
-                            <div class="carousel-wrapper">
+                            <div class="carousel-wrapper removal">
                                 <div class="row">
                                     <ul class="owl-carousel carousel-fw" id="testimonials-slider" data-columns="1" data-autoplay="" data-pagination="no" data-arrows="yes" data-single-item="no" data-items-desktop="1" data-items-desktop-small="1" data-items-tablet="1" data-items-mobile="1">
                                         <li class="item">
-                                            <div class="testimonial-block">
+                                            <div class="testimonial-block removal">
                                                 <blockquote>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                                                 </blockquote>
@@ -388,7 +369,7 @@ $workinghours="Mon-Sat 9am-5pm";
                                             </div>
                                         </li>
                                         <li class="item">
-                                            <div class="testimonial-block">
+                                            <div class="testimonial-block removal">
                                                 <blockquote>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
                                                 </blockquote>
