@@ -1,0 +1,21 @@
+
+/*removes a lot of default template markup*/
+.unwanted{
+    display: none;}
+
+
+.site-footer{
+    display: block;}
+
+
+.row .col-md-8, .connected-blocks, .site-footer, .site-footer-bottom{
+    position: relative;
+    bottom: 170px;}
+
+
+#form-heading{
+    position: relative;
+    left: 50px;}
+
+
+

@@ -34,6 +34,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
 <link href="css/responsive3.css" rel="stylesheet">
 <link href="css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/book-service.css" rel="stylesheet">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
@@ -46,58 +47,8 @@ $workinghours="Mon-Sat 9am-5pm";?>
 
 <style>
 
-/*Remove the default Template background
-.page-header{
-    display: none;
-}*/
 
 
-/*Remove the action bar so the user can focus exclusively on the form
-#main-nav-menu{
-    display: none;
-}
-*/
-.site-footer{
-    display: block;
-}
-/*
-.site-logo a{
-    position: relative;
-    z-index: 5;
-    display: block;
-    color: white;
-    font-size: 24px;
-    height: 25px;
-    bottom: 10px;
-}*/
-
-.unwanted{
-    display: none;
-}
-
-#form-heading{
-    position: relative;
-    left: 50px;
-
-}
-.row .col-md-8, .connected-blocks, .site-footer, .site-footer-bottom{
-position: relative;
-bottom: 170px;
-
-
-}
-/*
-.footer_widget nav ul li a{
-	color: #9ABC31!important;
-}*/
-
-/*
-.footer-heading{font-size: 20px!important;
-color: white!important;}*/
-/*
-@media only screen (min-widht: 480px){
-    .content{
-        padding:0;}}*/
 </style>
 </head>
 <body>
