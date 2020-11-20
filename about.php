@@ -46,55 +46,12 @@ $workinghours="Mon-Sat 9am-5pm";
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 <style>
 
-#Placeholder-Staff-Image{
-    background-color: lightgrey;
-    height: 200px;
-    position: relative;
-    }
-
-
-#Placeholder-Staff-Image p{position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size:18px;
-  width: 200px;}
 
 
 
 
 
-.unwanted{
-    display: none;
-}
-#staff-image-caption{
-    font-size: 24px;
-    position: relative;
-    left:.5em;
-    z-index: 2;}
 
-
-.col-md-9{
-    top: 50px;
-}
-
-
-
-
-.sidebar-widget ul li a{
-  color: #A1C040;
-}
-
-.footer_widget nav ul li a{
-	color: #9ABC31!important;
-}
- 
-
-
-@media only screen and (max-width: 416px){
-    #staff-image-caption{
-        width: 251px}}
 
 
 </style>
@@ -327,11 +284,11 @@ $workinghours="Mon-Sat 9am-5pm";
                     <div class="col-md-3 col-sm-5">
                     	<div class="widget sidebar-widget widget_custom_menu">
                         	<ul>
-                            	<li class="active"><a href="about.php">About us</a></li>
+                            	<li class="active"><a href="about.php" class="sidebar-link">About us</a></li>
                             	<li id="Book-service-link" class="removal"><a href="book-service.php">Book a service</a></li>
-                            	<li><a href="pricing.php">Pricing</a></li>
+                            	<li><a href="pricing.php" class="sidebar-link">Pricing</a></li>
                             	<li id="FAQ-link" class="removal"><a href="faqs.php">Frequently asked questions</a></li>
-                            	<li><a href="contact.php">Contact us</a></li>
+                            	<li><a href="contact.php" class="sidebar-link">Contact us</a></li>
                             </ul>
                         </div>
                         <div class="widget sidebar-widget text_widget">
