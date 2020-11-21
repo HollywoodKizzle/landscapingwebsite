@@ -25,85 +25,12 @@
 <link href="colors/color1.css" rel="stylesheet" type="text/css">        
  
 
- <link href="/Template/css/responsive3.css" rel="stylesheet">
+ <link href="css/responsive3.css" rel="stylesheet">
+ <link href="css/request-quote.css" rel="stylesheet">
  <style>
 
-.col-md-3{
 
-    position:relative;
-    top: 40px;
-
-
-}
-
-.col-md-3 h4, .fa{
-    font-size: 24px!important;
-    color: #9B9B9B!important;
     
-}
-
-.site-logo a{
-    position: relative;
-    font-size: 17px;
-    left: 10px;
-   /* max-width: 207px;*/
-
-}
-.site-logo{
-    float: initial;
-    max-width: 320px;
-}
-
-
-.container h1{
-    font-size: 24px;}
-
-
-
-
-/*Highest Ancestor element of both the header and the request estimate form */  
-     body > div.col-md-3.col-sm-6{
-            max-width: 500px;}
-
-
-
-/*Submit button*/
-#quote-submit{
-    max-width: 180px;}
-
-
-@media only screen and (min-width: 345px){
-    .site-logo a{
-        font-size: 24px!important;}}
-
-
-
-@media only screen and (min-width: 500px){
-    body > div.col-md-3.col-sm-6{
-        margin: 0 auto;}}
-
-@media only screen and (min-width: 767px){
-    /*.form-control{
-        width: 100%;}*/
-     
-    
-     /*Highest Ancestor element of both the header and the request estimate form */  
-     body > div.col-md-3.col-sm-6{
-            width: 500px;
-            float: none;}}
-
-
-
-@media only screen and (min-width: 399px){
-    h4.widgettitle{
-        width: 280px;
-        margin: 0 auto;
-        margin-bottom: 20px;}}
-
-@media only screen and (min-width: 840px){
-    body > div.col-md-3.col-sm-6{
-        width: 85%;
-        max-width: 100%;}}
  </style>      
 </head>
 
