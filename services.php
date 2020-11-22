@@ -216,13 +216,13 @@ $workinghours="Mon-Sat 9am-5pm";
 
     <div class="widget sidebar-widget widget_custom_menu">
                         	<ul>
-                            	<li class="active"><a href="#">All Services</a></li>
-                                <li><a href="services.php#Fall-spring">Fall and Spring Cleanup</a></li>
+                            	<li class="active"><a href="#">All Services</a></li>                             
                                 <li><a href="services.php#Lawncare">Lawn Care</a></li>
                                 <li><a href="services.php#Landscape">Landscape Design</a></li>
                                 <li><a href="services.php#Plants-Flowers">Plants, Flowers, Soils</a></li>
                                 <li><a href="services.php#Tree-Shrub">Tree, Shrub, Turf</a></li>
                                 <li><a href="services.php#Gutter-Cleaning">Gutter Cleaning</a></li>
+                                <li><a href="services.php#Fall-spring">Fall and Spring Cleanup</a></li>
                             </ul>
                         </div>
 

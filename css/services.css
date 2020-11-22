@@ -2,16 +2,16 @@
 /*Book Service button*/
 #service-submit{
 	position: fixed;
-	right: 0;
+	right: 0px;
 	bottom: 62px;
 	z-index: 13;
-	width: 100px;
-	padding: 4px 10px;
+	width: 120px;
+	padding: 6px 10px;
 	}
 
 #service-submit > a{
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
 	}
 
 .unwanted{
