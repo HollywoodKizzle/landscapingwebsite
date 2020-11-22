@@ -210,7 +210,9 @@ $workinghours="Mon-Sat 9am-5pm";
     <?php include 'topnavbar.php'?>
     <!-- Main Content -->
     <div id="main-container">
-    <a href="book-service.php"> <button type="submit" id="service-submit" name="service-submit" class="btn btn-primary btn-lg margin-20">Book Service</button></a>
+     <button type="submit" id="service-submit" name="service-submit" class="btn btn-primary">
+        <a href="book-service.php">Book Service</a>
+    </button>
 
     <div class="widget sidebar-widget widget_custom_menu">
                         	<ul>

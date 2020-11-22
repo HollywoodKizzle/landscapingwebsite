@@ -1,13 +1,18 @@
 
 /*Book Service button*/
 #service-submit{
-position: fixed;
-left: 200px;
-bottom: 60px;
-z-index: 3;
+	position: fixed;
+	right: 0;
+	bottom: 62px;
+	z-index: 13;
+	width: 100px;
+	padding: 4px 10px;
+	}
 
-
-}
+#service-submit > a{
+	color: white;
+	font-size: 10px;
+	}
 
 .unwanted{
     display: none;
