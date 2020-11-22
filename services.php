@@ -31,10 +31,10 @@ $workinghours="Mon-Sat 9am-5pm";
 <link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
-<link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="/Template/css/actionbar2.css" rel="stylesheet">
-<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
-<link href="/Template/css/topnavbar.css" rel="stylesheet">
+<link href="css/responsive3.css" rel="stylesheet">
+<link href="css/actionbar2.css" rel="stylesheet">
+<link href="css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/topnavbar.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -249,17 +249,17 @@ z-index: 3;
     <?php include 'topnavbar.php'?>
     <!-- Main Content -->
     <div id="main-container">
-    <a href="/Template/book-service.php"> <button type="submit" id="service-submit" name="service-submit" class="btn btn-primary btn-lg margin-20">Book Service</button></a>
+    <a href="book-service.php"> <button type="submit" id="service-submit" name="service-submit" class="btn btn-primary btn-lg margin-20">Book Service</button></a>
 
     <div class="widget sidebar-widget widget_custom_menu">
                         	<ul>
                             	<li class="active"><a href="#">All Services</a></li>
-                                <li><a href="/Template/services.php#Fall-spring">Fall and Spring Cleanup</a></li>
-                                <li><a href="/Template/services.php#Lawncare">Lawn Care</a></li>
-                                <li><a href="/Template/services.php#Landscape">Landscape Design</a></li>
-                                <li><a href="/Template/services.php#Plants-Flowers">Plants, Flowers, Soils</a></li>
-                                <li><a href="/Template/services.php#Tree-Shrub">Tree, Shrub, Turf</a></li>
-                                <li><a href="/Template/services.php#Gutter-Cleaning">Gutter Cleaning</a></li>
+                                <li><a href="services.php#Fall-spring">Fall and Spring Cleanup</a></li>
+                                <li><a href="services.php#Lawncare">Lawn Care</a></li>
+                                <li><a href="services.php#Landscape">Landscape Design</a></li>
+                                <li><a href="services.php#Plants-Flowers">Plants, Flowers, Soils</a></li>
+                                <li><a href="services.php#Tree-Shrub">Tree, Shrub, Turf</a></li>
+                                <li><a href="services.php#Gutter-Cleaning">Gutter Cleaning</a></li>
                             </ul>
                         </div>
 
@@ -447,6 +447,6 @@ z-index: 3;
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="/Template/js/offcanvasmenu.js"></script>
+<script src="js/offcanvasmenu.js"></script>
 </body>
 </html>
