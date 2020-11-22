@@ -1,0 +1,23 @@
+
+/*Book Service button*/
+#service-submit{
+position: fixed;
+left: 200px;
+bottom: 60px;
+z-index: 3;
+
+
+}
+
+.unwanted{
+    display: none;
+}
+
+.footer_widget nav ul li a{
+	color: #9ABC31!important;
+}
+
+
+.sidebar-widget a{
+    color:#A3C245!important;
+}

@@ -35,6 +35,7 @@ $workinghours="Mon-Sat 9am-5pm";
 <link href="css/actionbar2.css" rel="stylesheet">
 <link href="css/offcanvasmenu2.css" rel="stylesheet">
 <link href="css/topnavbar.css" rel="stylesheet">
+<link href="css/services.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -44,46 +45,6 @@ $workinghours="Mon-Sat 9am-5pm";
 <script src="js/modernizr.js"></script><!-- Modernizr -->
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 
-<style>
-
-/*
-.site-logo a{
-    position: relative;
-    z-index: 5;
-    display: block;
-    color: white;
-    font-size: 24px;
-    height: 30px;
-    
-}
-*/
-/*Book Service button*/
-#service-submit{
-position: fixed;
-left: 200px;
-bottom: 60px;
-z-index: 3;
-
-
-}
-
-.footer-heading{
-    
-}
-.unwanted{
-    display: none;
-}
-
-.footer_widget nav ul li a{
-	color: #9ABC31!important;
-}
-
-
-.sidebar-widget a{
-    color:#A3C245!important;
-}
-
-</style>
 </head>
 <body>
 <!--[if lt IE 7]>
