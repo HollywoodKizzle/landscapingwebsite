@@ -3,7 +3,7 @@
 #service-submit{
 	position: fixed;
 	right: 0px;
-	bottom: 62px;
+	 bottom: 62px; 
 	z-index: 13;
 	width: 120px;
 	padding: 6px 10px;
@@ -42,9 +42,8 @@ body > div > div.hero-area > div{display:none;}
 @media only screen and (min-width: 600px){
     /*Book Service button*/
 	#service-submit{
-		bottom: 0;
-		/* width: 140px; */
-		/* font-size: 16px; */
+		 bottom: 40px; 
+		right: 35px;
 		}}
 
 @media only screen and (min-width: 700px){
@@ -56,4 +55,12 @@ body > div > div.hero-area > div{display:none;}
 
 	#service-submit a{
 		font-size:16px;}}
+
+
+@media only screen and (min-width: 870px){
+	#service-submit{
+		top: 50px;
+		left: 700px;
+		bottom: initial;
+		}}
 
