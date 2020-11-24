@@ -64,3 +64,8 @@ body > div > div.hero-area > div{display:none;}
 		bottom: initial;
 		}}
 
+
+@media screen and (min-width: 600px) and (min-height: 580px), screen and (min-width:870px){
+	#service-submit{
+		position:absolute;}}
+
