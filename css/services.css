@@ -26,3 +26,34 @@
 .sidebar-widget a{
     color:#A3C245!important;
 }
+
+
+/*the div wrapping the <ul> element for the list of services*/
+#main-container > div.widget.sidebar-widget.widget_custom_menu{margin-top: 0;}
+
+/*Hero area containing the default breadcrumb links*/
+body > div > div.hero-area > div{display:none;}
+
+/*left border of the All Services link*/
+
+.widget_custom_menu ul li.active a{
+	border-left: none;}
+
+@media only screen and (min-width: 600px){
+    /*Book Service button*/
+	#service-submit{
+		bottom: 0;
+		/* width: 140px; */
+		/* font-size: 16px; */
+		}}
+
+@media only screen and (min-width: 700px){
+	/*Book Service button*/
+	#service-submit{
+		width: 140px;
+		padding: 4px 10px;}
+
+
+	#service-submit a{
+		font-size:16px;}}
+
