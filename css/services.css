@@ -42,7 +42,8 @@ body > div > div.hero-area > div{display:none;}
 @media only screen and (min-width: 600px){
     /*Book Service button*/
 	#service-submit{
-		 bottom: 40px; 
+		bottom: initial;
+		 top: 440px; 
 		right: 35px;
 		}}
 
@@ -67,5 +68,8 @@ body > div > div.hero-area > div{display:none;}
 
 @media screen and (min-width: 600px) and (min-height: 580px), screen and (min-width:870px){
 	#service-submit{
-		position:absolute;}}
+		position:absolute;
+
+		/*bottom:calc(40px + 28vh);*/
+		}}
 
