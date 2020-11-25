@@ -93,3 +93,11 @@ body > div > div.hero-area > div{display:none;}
 		/*bottom:calc(40px + 28vh);*/
 		}}
 
+@media only screen and (min-width: 575px){
+	/*Green banner containing the contact us link*/
+	div.text_banner{
+		text-align: center;}
+		/*Contact us link*/
+	div.text_banner a{
+		padding: 6px 20px;
+		right: 20px;}}

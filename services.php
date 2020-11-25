@@ -313,7 +313,7 @@ $workinghours="Mon-Sat 9am-5pm";
                         	<div class="accent-bg text_banner">
                             	<h4>Have questions about our services?</h4>
                         		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                                <a href="contact.php" class="btn btn-default btn-ghost btn-light" style="color: white!important;">Contact us</a>
+                                <a href="contact.php" class="btn btn-default btn-ghost" style="color: white!important;">Contact us</a>
                             </div>
                         </div>
                     </div>
