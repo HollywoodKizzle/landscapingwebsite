@@ -16,7 +16,7 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
   /*This declaration initially pushes the menu leftward so that it appears "offscreen"*/
-  transform: translate(10%, 0);
+  transform: translate(100%, 0);
   /*This declaration is responsible for the menu swiftly sliding into view as oppose to just rapidly materializing when the icon is clicked*/
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   font-size: 15px;
@@ -31,7 +31,7 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
   height: 45px;
   position: absolute;
   top: -35px;
-  right: -20px;
+  right: -20px; 
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -41,7 +41,8 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  cursor: pointer;}
+  cursor: pointer;
+  }
 
 
 
@@ -55,7 +56,8 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
   background: rgb(154, 188, 49);
   border-radius: 7px;
   opacity: 1;
-  left: 0;
+  /* left: initial; */
+  /* right: 0; */
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -63,7 +65,8 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;}
+  transition: .25s ease-in-out;
+  }
 
 
 
@@ -124,22 +127,24 @@ Configures  it movement "off-screen" when the Hamburger Icon is clicked */
 into view when the Hamburger Icon is clicked on*/
 
 #menuToggle.open ul
-{transform: none;
-  transform: translate(-127%, 0);}
+{
+  transform: none;
+  transform: translate(-127%, 0);
+  }
   
 
 
   @media only screen and (min-height: 430px){
     #menu{height: 260px;}
 
-    #menu li{ line-height: 45px;}
+    #menu li{line-height: 45px;}
   }
 
 
   @media only screen and (min-width: 450px){
     #menu{width: 180px;}
 
-    #menu li{ left: 25px;}
+    #menu li{left: 25px;}
 
     #menuToggle.open ul
 {transform: none;

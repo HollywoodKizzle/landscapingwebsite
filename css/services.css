@@ -39,6 +39,26 @@ body > div > div.hero-area > div{display:none;}
 .widget_custom_menu ul li.active a{
 	border-left: none;}
 
+/*Container for the offcanvas menu*/
+#menuToggle{
+	right: 10px;}
+
+/*readjusting the position of the 'Hamburger Icon'*/
+#menuToggle span{
+	left: initial;
+	right: 0;}
+
+/*Statically positioning the nearest ancestor of the offcanvas menu
+ so that the .header-wrapper div higher up in the DOM can instead be it's containing block*/
+ body > div > div.header-wrapper > header{
+ 	position: static;}
+
+/*Slight edit to the animation code of the offcanvas menu that enusres the menu 'slides'
+ into view in such a way that it is appropiately alligned with the close button*/ 	
+#menuToggle.open ul{
+	transform: none;
+	transform: translate(-107%, 0);}
+
 @media only screen and (min-width: 600px){
     /*Book Service button*/
 	#service-submit{
