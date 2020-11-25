@@ -1,0 +1,22 @@
+
+#main-container-heading{
+    position: relative;
+    left: 70px;
+}
+
+#form-text, #contactform{
+  position: relative;
+  bottom: 100px;
+  
+
+}
+
+
+.unwanted{
+	display: none;
+}
+
+.footer_widget nav ul li a{
+	color: #9ABC31!important;
+}
+
