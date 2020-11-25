@@ -1,14 +1,13 @@
 
 #main-container-heading{
     position: relative;
-    left: 70px;
+    margin: 0 auto;
+    width: 120px;
 }
 
 #form-text, #contactform{
   position: relative;
-  bottom: 100px;
-  
-
+  /* bottom: 100px; */
 }
 
 

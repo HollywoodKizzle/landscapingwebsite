@@ -32,8 +32,9 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
 <!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
 <!--Styling shared sitewide-->
-<link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/responsive3.css" rel="stylesheet">
+<link href="css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/contact.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -45,48 +46,9 @@ $workinghours="Mon-Sat 9am-5pm";?>
 
 <style>
 
-/*Remove the default Template background image*/
-.page-header{
-    display: none;
-}
 
 
 
-/*
-#company-name{
-    color: white;
-    font-size: 20px;
-    z-index: 5;
-    position: relative;
-    top: 15px;
-}*/
-
-
-
-#main-container-heading{
-    position: relative;
-    left: 70px;
-}
-
-#form-text, #contactform{
-  position: relative;
-  bottom: 100px;
-  
-
-}
-/*Remove the action bar so the user can focus exclusively 
- on filling out the form*/
-#main-nav-menu {
-   display: none;
-}
-
-.unwanted{
-	display: none;
-}
-
-.footer_widget nav ul li a{
-	color: #9ABC31!important;
-}
 
 </style>
 </head>
@@ -239,7 +201,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
     <?php include 'offcanvasmenu.php';?>
     <!-- Start Hero Area -->
     <div class="hero-area">
-    	<div class="page-header dark">
+    	<div class="page-header dark removal">
         	<div class="container">
                 <!-- Breadcrumb -->
                 <ol class="breadcrumb removal">
@@ -258,7 +220,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
         	<div class="container">
             	<div class="row">
                 	<div class="col-lg-9 col-md-8 col-sm-7">
-                    	<h3>Get in touch</h3>
+                    	<!--<h3>Get in touch</h3>-->
             			<p id="form-text">We would be delighted to serve you with our services, just use the form below or choose the services you are interested in and we will be in touch with you in few hours. We’re available from Monday to Saturday, 06:00-18:00 to take your call.</p>
                     	<form method="post" id="contactform" name="contactform" class="contact-form clearfix" action="mail/contact.php">
                             <div class="row">
@@ -295,7 +257,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
                   	</div>
                     <div class="spacer-40 visible-xs"></div>
 
-                   <?php include 'actionbar2.php';?>
+                   
 
                    
                     <div class="col-lg-3 col-md-4 col-sm-5">
@@ -504,6 +466,6 @@ $workinghours="Mon-Sat 9am-5pm";?>
                 });
             }
         </script>
-        <script src="/Template/js/offcanvasmenu.js"></script>
+        <script src="js/offcanvasmenu.js"></script>
 </body>
 </html>
