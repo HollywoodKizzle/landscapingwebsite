@@ -19,3 +19,10 @@
 	color: #9ABC31!important;
 }
 
+@media only screen and (min-width: 575px){
+	.row .col-sm-7{
+		margin: 0 auto;
+		/* flex-grow: 2; */
+		/* flex-basis: 70%; */
+		/* width: 80%; */
+		}}
