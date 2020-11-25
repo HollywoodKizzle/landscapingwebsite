@@ -295,9 +295,11 @@ $workinghours="Mon-Sat 9am-5pm";?>
                             </ul>
                         </div>
                         <div class="feature-block">
-                            <h5>Contact Info</h5>
-                            <p>Suite 300 Houston<br>Texas - 77042 USA</p><br>
-                            <p><strong>Call us toll free</strong><br><span class="accent-color">1800-9090-8089</span></p><br>
+                            <?php include 'addressinfo.php';?>
+                            <p><strong>Call us toll free</strong><br>
+                            <span class="accent-color">
+                            <a href="tel:+1-<?php echo $phoneinfo;?>">
+                            <?php echo $phoneinfo;?></a></span></p><br>
                         </div>
                     </div>
                	</div>
