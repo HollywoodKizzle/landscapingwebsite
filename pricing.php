@@ -326,8 +326,16 @@ $workinghours="Mon-Sat 9am-5pm";
                         <div class="widget sidebar-widget text_widget">
                             <div class="feature-block">
                                 <h5>Contact Info</h5>
-                                <p>Suite 300 Houston<br>Texas - 77042 USA</p><br>
-                                <p><strong>Call us toll free</strong><br><span class="accent-color"><a href="tel:+1-919-628-6766">919-628-6766</a></span></p><br>
+                                <?php include 'addressinfo.php';?><br>
+                                <p>
+                                    <strong>Call us toll free</strong><br>
+                                    <span class="accent-color">
+                                        <a href="tel:+1-<?php echo $phoneinfo;?>">
+                                            <?php echo $phoneinfo;?>
+                                        </a>
+                                    </span>
+                                </p>
+                                <br>
                             </div>
                        	</div>
                     	<div class="widget sidebar-widget text_widget">
