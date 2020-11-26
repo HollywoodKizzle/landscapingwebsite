@@ -1,0 +1,32 @@
+
+/*Remove the default Template background image*/
+.page-header{
+    display: none;
+}
+
+
+.hero-area h1{
+    width: 155px;
+}
+
+#main-container{
+    display: block;
+}
+.unwanted{
+    display: none;
+}
+
+
+
+
+.footer_widget nav ul li a{
+	color: #9ABC31!important;
+}
+
+.sidebar-widget a{
+	color: #9ABC31!important;
+}
+
+.footer-heading{
+font-size: 24px!important;
+color: white!important;}

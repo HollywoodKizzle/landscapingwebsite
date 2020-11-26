@@ -34,10 +34,11 @@ $workinghours="Mon-Sat 9am-5pm";
 
 <!--Styles shared by all pages-->
 
-<link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="/Template/css/actionbar2.css" rel="stylesheet">
-<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
-<link href="/Template/css/topnavbar.css" rel="stylesheet">
+<link href="css/responsive3.css" rel="stylesheet">
+<link href="css/actionbar2.css" rel="stylesheet">
+<link href="css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/topnavbar.css" rel="stylesheet">
+<link href="css/pricing.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -46,78 +47,11 @@ $workinghours="Mon-Sat 9am-5pm";
   ================================================== -->
 <script src="js/modernizr.js"></script><!-- Modernizr -->
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
-<style>
-
-
-/*Remove the default Template background image*/
-.page-header{
-   /* display: none;*/
-}
 
 
 
-.hero-area h1{
-    width: 155px;
-}
 
-#main-container{
-    display: block;
-}
-.unwanted{
-    display: none;
-}
 
-/**Configuring the call to action bar
-#main-nav-menu {
-    position: fixed;
-    right: 0px;
-    z-index: 6;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    height: 70px;
-    width: 370px;
-    border-right: none;
-    border-left: none;
-    bottom: 0px;
-    border-bottom: none;
-} */
-
-/*
-#call-to-action-bar{
-    right: -4px;
-    bottom: -6px;
-
-}
-
-#call-to-action-bar-captions{
-    bottom: 0px;
-    font-size: 16px;
-}*/
-
-/*Configuring the header
-.site-logo a{
-    position: relative;
-    z-index: 5;
-    display: block;
-    color: white;
-    font-size: 24px;
-    height: 50px;
-    top: 15px;
-}
-*/
-.footer_widget nav ul li a{
-	color: #9ABC31!important;
-}
-
-.sidebar-widget a{
-	color: #9ABC31!important;
-}
-
-.footer-heading{
-font-size: 24px!important;
-color: white!important;}
-</style>
 </head>
 <body>
 <!--[if lt IE 7]>
