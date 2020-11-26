@@ -314,7 +314,7 @@ $workinghours="Mon-Sat 9am-5pm";
 
                    	</div>
                     <div class="col-md-3 col-sm-5">
-                    	<div class="widget sidebar-widget widget_custom_menu">
+                    	<div class="widget sidebar-widget widget_custom_menu removal">
                         	<ul>
                             	<li><a href="about.php">About us</a></li>
                             	<li><a href="book-service.php">Book a service</a></li>
