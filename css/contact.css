@@ -21,8 +21,13 @@
 
 @media only screen and (min-width: 575px){
 	.row .col-sm-7{
-		margin: 0 auto;
-		/* flex-grow: 2; */
-		/* flex-basis: 70%; */
-		/* width: 80%; */
-		}}
+		flex-basis: 500px;
+		max-width: none;
+		flex-basis: 100%;
+		}
+
+        /*Container of the working hours text banner*/
+		div.col-lg-3{
+			max-width: none;
+			flex-basis: 60%;}}
+		        
