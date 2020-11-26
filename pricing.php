@@ -283,9 +283,9 @@ $workinghours="Mon-Sat 9am-5pm";
                         
         		
                         
-                        <div class="alert alert-default">All other services will need to be quoted. Please refer to the terms &amp; conditions below regarding accounts, quotes and payments.</div>
-						<hr class="fw">
-                        <h4 class="unwanted">TURF</h4>
+                        <div class="alert alert-default removal">All other services will need to be quoted. Please refer to the terms &amp; conditions below regarding accounts, quotes and payments.</div>
+						<hr class="fw removal">
+                        <h4 class="removal">TURF</h4>
                         <ul class="angles unwanted">
                         	<li>Blue Couch from $16 per square metre</li>
                         	<li>Sir Walter from $27.50 per square metre</li>
@@ -300,8 +300,8 @@ $workinghours="Mon-Sat 9am-5pm";
                         	<li>All prices include supply and laying of mulch.  Additional charges may apply if we need to negotiate stairs or other obstacles or if we need to move materials greater than 30 metres.</li>
                         	<li>A delivery charge of $30 will also apply for each delivery of mulch up 3 cubic metres.</li>
                        	</ul>
-						<hr class="fw">
-						<h3>TERMS &amp; CONDITIONS</h3>
+						<hr class="fw removal">
+						<h3 class="removal">TERMS &amp; CONDITIONS</h3>
 						<h4 class="unwanted">New Clients</h4>
 						<p class="unwanted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor lacinia diam quis imperdiet. Proin vitae iaculis nisl. Cras eleifend quam lectus, sed bibendum libero convallis at. Nulla sagittis convallis neque at scelerisque. Pellentesque placerat bibendum magna, semper accumsan sem congue nec. Etiam viverra, ipsum vel suscipit varius, neque odio suscipit orci, et molestie metus mi a dui.</p>
                         <p class="unwanted">Sed eu risus vel lacus varius varius. Vivamus blandit arcu quis turpis molestie, vulputate vulputate mi ullamcorper. Nunc lacinia eget libero ac cursus. Ut laoreet magna vitae lorem ornare scelerisque.</p>
