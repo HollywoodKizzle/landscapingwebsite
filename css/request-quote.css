@@ -7,8 +7,9 @@
 
 }
 
-.col-md-3 h4, .fa{
-    color: #9B9B9B!important;}
+ h4,.fa{
+    color: #9B9B9B!important;
+    font-size: 24px;}
     
 
 
@@ -24,12 +25,11 @@
     max-width: 320px;}
 
 
-.col-md-3 h4,.fa,.container h1{
-    font-size: 24px!important;}
+
 
 /*Highest Ancestor element of both the header and the request estimate form */  
-     body > div.col-md-3.col-sm-6{
-            max-width: 500px;}
+     .col-sm-6{
+        max-width: 500px;}
 
 
 

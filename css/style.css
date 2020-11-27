@@ -2543,12 +2543,13 @@ top: 25px;
 .twitter-widget .tweet-date{
 	font-weight:700;
 }
+.footer_widget{font-size: 14px;}
 .footer_widget h4.widgettitle{
 	text-transform:uppercase;
 	border-bottom:0;
 	color:#fff;
 	font-weight:700;
-	font-size:14px;
+	/*font-size:14px;*/
 	margin-bottom:36px;
 	letter-spacing:1px;
 	/*display: none!important;*/
