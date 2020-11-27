@@ -16,3 +16,13 @@
 .nav-pills li a{
 	color: #9ABC31;
 }
+
+.gallery-image{
+    text-align: center;
+    font-size:24px;
+    width: 150px;
+    height: 150px;
+    background-color:grey;
+    color: black;
+    position: relative;}
+

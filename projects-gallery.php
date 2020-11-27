@@ -230,47 +230,62 @@ $workinghours="Mon-Sat 9am-5pm";?>
                     </ul>
                 </div>
                 <div class="row">
-                    <ul class="sort-destination isotope project-items format-gallery" data-sort-id="projects">
+                    <ul class="d-flex flex-wrap sort-destination isotope project-items format-gallery" data-sort-id="projects">
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item garden format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Stone paving" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                          	</a>
+                           <div class="gallery-image">
+                                <p class="dual-center">First Image</p>
+                           </div>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Patio and garden of family home" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                          	</a>
+                           <!--	<a href="http://placeholder.com/200.png?text=IMAGE+PLACEHOLDER" title="Patio and garden of family home" class="popup-image media-box">
+                            	<img src="http://via.placeholder.com/200.png?text=IMAGE+PLACEHOLDER" alt="">
+                          	</a>-->
+                          	<div class="gallery-image">
+                          	     <p class="dual-center">Second Image</p>
+                          	</div>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Summer garden and deck" class="popup-image media-box">
+                           <!--	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Summer garden and deck" class="popup-image media-box">
                             	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                          	</a>
+                          	</a>-->
+                          	<div class="gallery-image">
+                          	     <p class="dual-center">Third Image</p>
+                          	</div>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item garden format-image">
-                           	<a href="/Template/images/tree-spring.jpg" title="Colorful paving tile" class="popup-image media-box">
-                            	<img src="/Template/images/tree-spring.jpg" alt="">
-                          	</a>
+                           <!--	<a href="images/tree-spring.jpg" title="Colorful paving tile" class="popup-image media-box">
+                            	<img src="images/tree-spring.jpg" alt="">
+                          	</a>-->
+                          	<div class="gallery-image">
+                          	     <p class="dual-center">Fourth Image</p>
+                          	</div>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Close board fencing panels" class="popup-image media-box">
+                           	<!--<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Close board fencing panels" class="popup-image media-box">
                             	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                          	</a>
+                          	</a>-->
+                          	<div class="gallery-image">
+                          	     <p class="dual-center">Fifth Image</p>
+                            </div>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Fenced backyard with garden bed" class="popup-image media-box">
+                           	<!--<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Fenced backyard with garden bed" class="popup-image media-box">
                             	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
-                          	</a>
+                          	</a>-->
+                          	<div class="gallery-image">
+                          	     <p class="dual-center">Sixth Image</p>
+                            </div>
                         </li>
-                        <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
+                       <!-- <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
                            	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
                             	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
-                        </li>
-                        <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
+                        </li>-->
+                        <!--<li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
                            	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
                             	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -365,6 +380,6 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="/Template/js/offcanvasmenu.js"></script>
+<script src="js/offcanvasmenu.js"></script>
 </body>
 </html>
