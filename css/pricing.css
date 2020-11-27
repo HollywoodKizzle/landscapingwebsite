@@ -34,8 +34,15 @@ color: white!important;}
 @media only screen and (min-width: 575px){
     /*container for the pricing table, and contact info banner */
     .row{
-        flex-direction: column;}
+        /* flex-direction: column; */
+        }
 
     .col-md-9,.col-md-3{
         max-width: none;
         flex-basis:80%;}}
+
+
+@media only screen and (min-width: 767px){
+	.col-sm-6{
+		width: 80%;
+		float: none;}}
