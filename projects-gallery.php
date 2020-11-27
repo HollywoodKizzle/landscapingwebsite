@@ -33,10 +33,11 @@ $workinghours="Mon-Sat 9am-5pm";?>
 
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
-<link href="/Template/css/responsive3.css" rel="stylesheet">
-<link href="/Template/css/actionbar2.css" rel="stylesheet">
-<link href="/Template/css/offcanvasmenu2.css" rel="stylesheet">
-<link href="/Template/css/topnavbar.css" rel="stylesheet">
+<link href="css/responsive3.css" rel="stylesheet">
+<link href="css/actionbar2.css" rel="stylesheet">
+<link href="css/offcanvasmenu2.css" rel="stylesheet">
+<link href="css/topnavbar.css" rel="stylesheet">
+<link href="css/projects-gallery.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
 <link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
 <!-- Color Style -->
@@ -47,38 +48,6 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <script src="https://kit.fontawesome.com/cd61d9ef13.js" crossorigin="anonymous"></script>
 
 
-
-<style>
-
-.hero-area h1{
-    width: 155px;
-}
-
-
-/*
-.site-logo a{
-    position: relative;
-    z-index: 5;
-    display: block;
-    color: white;
-    font-size: 24px;
-    height: 30px;
-    bottom: 15px;
-}
-*/
-.unwanted{
-	display: none;
-}
-
- .footer_widget nav ul li a{
-	color: #9ABC31!important;
-}
-
-.nav-pills li a{
-	color: #9ABC31;
-}
-
-</style>
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -233,7 +202,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
     <?php include 'offcanvasmenu.php'?>
     <!-- Start Hero Area -->
     <div class="hero-area">
-    	<div class="page-header dark">
+    	<div class="page-header dark removal">
         	<div class="container">
                 <!-- Breadcrumb -->
                 <ol class="breadcrumb removal">

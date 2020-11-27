@@ -1,0 +1,18 @@
+
+.hero-area h1{
+    width: 155px;
+}
+
+
+
+.unwanted{
+	display: none;
+}
+
+ .footer_widget nav ul li a{
+	color: #9ABC31!important;
+}
+
+.nav-pills li a{
+	color: #9ABC31;
+}
