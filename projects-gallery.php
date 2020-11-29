@@ -27,9 +27,9 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
-<link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">
-<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">
-<!--This stylesheet provides the functionality for the off screen menu linked to the Hamburger Icon-->
+<!--<link href="vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css">-->
+<!--<link href="vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css">-->
+
 
 <!--Styling shared sitewide-->
 <!--<link href="Template/css/sharedstyles.css" rel="stylesheet">-->
@@ -39,7 +39,7 @@ $workinghours="Mon-Sat 9am-5pm";?>
 <link href="css/topnavbar.css" rel="stylesheet">
 <link href="css/projects-gallery.css" rel="stylesheet">
 <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
-<link href="css/custom.css" rel="stylesheet" type="text/css"><!-- CUSTOM STYLESHEET FOR STYLING -->
+
 <!-- Color Style -->
 <link href="colors/color1.css" rel="stylesheet" type="text/css">
 <!-- SCRIPTS
@@ -232,18 +232,18 @@ $workinghours="Mon-Sat 9am-5pm";?>
                 <div class="row">
                     <ul class="sort-destination isotope project-items format-gallery" data-sort-id="projects">
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item garden format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Stone paving" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" title="Stone paving" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Patio and garden of family home" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Patio and garden of family home" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Summer garden and deck" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Summer garden and deck" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item garden format-image">
@@ -252,23 +252,23 @@ $workinghours="Mon-Sat 9am-5pm";?>
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Close board fencing panels" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Close board fencing panels" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Fenced backyard with garden bed" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Fenced backyard with garden bed" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
-                           	<a href="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
-                            	<img src="http://placehold.it/600x400&amp;text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
                           	</a>
                         </li>
                     </ul>
