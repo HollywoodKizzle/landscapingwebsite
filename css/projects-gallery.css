@@ -17,8 +17,8 @@
 	color: #9ABC31;
 }
 
-@media only screen and (min-width:768px){
-	/* Isotope */
+@media only screen and (min-width:575px){
+	/* image gallery container */
 	.isotope {
 		overflow: visible !important;
 		height: auto !important;

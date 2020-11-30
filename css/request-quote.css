@@ -8,7 +8,7 @@
 }
 
  h4,.fa{
-    color: #9B9B9B!important;
+    color: #9B9B9B;
     font-size: 24px;}
     
 
@@ -34,13 +34,13 @@
 
 
 /*Submit button*/
-#quote-submit{
+.btn{
     max-width: 180px;}
 
 
 @media only screen and (min-width: 345px){
     .site-logo a{
-        font-size: 24px!important;}}
+        font-size: 24px;}}
 
 
 
