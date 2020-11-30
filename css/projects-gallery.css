@@ -17,3 +17,26 @@
 	color: #9ABC31;
 }
 
+@media only screen and (min-width:768px){
+	/* Isotope */
+	.isotope {
+		overflow: visible !important;
+		height: auto !important;
+		margin: 0 auto;
+	}
+	.isotope-item {
+		position: static !important;
+		margin-right: auto;
+		margin-left: auto;
+		width: auto;
+		float:none;
+		-webkit-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-o-transform: none !important;
+		transform: none !important;
+		max-width: none;
+	}
+	.isotope-hidden {
+		display: none !important;
+	}}

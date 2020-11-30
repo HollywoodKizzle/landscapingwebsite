@@ -238,37 +238,38 @@ $workinghours="Mon-Sat 9am-5pm";?>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
                            	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Patio and garden of family home" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item decking format-image">
                            	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Summer garden and deck" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item garden format-image">
                            	<a href="/Template/images/tree-spring.jpg" title="Colorful paving tile" class="popup-image media-box">
-                            	<img src="/Template/images/tree-spring.jpg" alt="">
+                            	<!--<img src="/Template/images/tree-spring.jpg" alt="">-->
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Close board fencing panels" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" title="Close board fencing panels" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item fencing format-image">
-                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Fenced backyard with garden bed" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" title="Fenced backyard with garden bed" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
-                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" title="Residential House" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                         <li class="col-md-4 col-sm-6 col-xs-6 grid-item project-grid-item landscaping format-image">
-                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" title="Residential House" class="popup-image media-box">
-                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER" alt="">
+                           	<a href="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" title="Residential House" class="popup-image media-box">
+                            	<img src="https://place-hold.it/600x400&amp?text=IMAGE+PLACEHOLDER&fontsize=23" alt="">
                           	</a>
                         </li>
                     </ul>

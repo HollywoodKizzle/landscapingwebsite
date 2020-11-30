@@ -667,6 +667,7 @@ p.meta-data{
 	-ms-transition-property: -ms-transform, opacity;
 	-o-transition-property: -o-transform, opacity;
 	transition-property: transform, opacity;
+	/* background-color: yellow; */
 }
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
 	-webkit-transition-duration: 0s;
