@@ -303,12 +303,12 @@ $workinghours="Mon-Sat 9am-5pm";?>
                         </nav>
                     </div>
                 </div>
-            	<div class="col-md-3 col-sm-6" class="unwanted">
+            	<!--<div class="col-md-3 col-sm-6" class="unwanted">
                 	<div class="widget footer_widget" class="unwanted">
                     	<h4 class="widgettitle unwanted"><i class="fa fa-twitter"></i> We are on Twitter</h4>
                         <div class="twitter-widget" data-tweets-count="2"></div>
                     </div>
-               	</div>
+               	</div>-->
                 <div class="col-md-3 col-sm-6">
                     <div class="widget footer_widget">
                         <h4 class="widgettitle"><i class="fa fa-calculator"></i> Request an Estimate</h4>
