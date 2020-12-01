@@ -3389,7 +3389,8 @@ top: 25px;
 		text-align:left;
 		float:none;
 		display:inline-block;
-		margin:0 10px;
+		margin: 0 20px;
+		margin-right: 0px;
 	}
 	#call-to-action-bar{
 	z-index:6;
