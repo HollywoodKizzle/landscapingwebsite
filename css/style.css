@@ -667,7 +667,6 @@ p.meta-data{
 	-ms-transition-property: -ms-transform, opacity;
 	-o-transition-property: -o-transform, opacity;
 	transition-property: transform, opacity;
-	/* background-color: yellow; */
 }
 .isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
 	-webkit-transition-duration: 0s;
@@ -2544,13 +2543,11 @@ top: 25px;
 .twitter-widget .tweet-date{
 	font-weight:700;
 }
-.footer_widget{
-	font-size: 14px;
-	color: #9B9B9B;}
+.footer_widget{font-size: 14px;}
 .footer_widget h4.widgettitle{
 	text-transform:uppercase;
 	border-bottom:0;
-	/*color:#fff;*/
+	color:#fff;
 	font-weight:700;
 	/*font-size:14px;*/
 	margin-bottom:36px;
