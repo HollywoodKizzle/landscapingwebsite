@@ -468,6 +468,7 @@ $workinghours="Mon-Sat 9am-5pm";
 <script src="js/bootstrap.js"></script> <!-- UI -->
 <script src="js/init.js"></script> <!-- All Scripts -->
 <script src="vendor/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider -->
-<script src="/Template/js/offcanvasmenu.js"></script>
+<script src="js/offcanvasmenu.js"></script>
+<script src="js/removeBanner.js"></script>
 </body>
 </html>

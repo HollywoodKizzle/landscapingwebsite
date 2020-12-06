@@ -34,14 +34,14 @@
 
   .icon-pair span{ font-size: 15px;}
 
-  .icon-pair span,.icon-pair a{}
+  
 
 
 
   /**Layout**/
   .icon-bar{
     position: fixed;
-    bottom: 0px;}
+    bottom: 0;}
 
 /*
 .debug{
@@ -103,7 +103,7 @@ only screen and (                min-resolution: 2dppx) and (min-width: 500px){
 }
 
 */
-
+/*
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px),
 only screen and (   min--moz-device-pixel-ratio: 2) and (min-width: 600px),
@@ -113,6 +113,6 @@ only screen and (                min-resolution: 192dpi) and (min-width: 600px),
 only screen and (                min-resolution: 2dppx) and (min-width: 600px){ 
 .icon-pair i{
 }
-}
+}*/
 
-@media only screen and (min-width: 600px){#main-nav-menu{display: none;}}
+@media only screen and (min-width: 600px){.icon-bar{display: none;}}

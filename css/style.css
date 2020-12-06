@@ -204,6 +204,7 @@ h6{
 	font-weight:700;
 	line-height:1.5em;
 	font-family: 'Lato', sans-serif;
+	
 }
 h1{
 	font-size:36px;
@@ -2543,7 +2544,9 @@ top: 25px;
 .twitter-widget .tweet-date{
 	font-weight:700;
 }
-.footer_widget{font-size: 14px;}
+.footer_widget{
+	font-size: 14px;
+		}
 .footer_widget h4.widgettitle{
 	text-transform:uppercase;
 	border-bottom:0;

@@ -469,5 +469,6 @@ $workinghours="Mon-Sat 9am-5pm";?>
             }
         </script>
         <script src="js/offcanvasmenu.js"></script>
+        <script src="js/removeBanner.js"></script>
 </body>
 </html>

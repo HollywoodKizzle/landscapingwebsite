@@ -77,6 +77,6 @@
                         </form>
                     </div>
                 </div>
-
+<script src="js/removeBanner.js"></script>
 </body>
 </html>

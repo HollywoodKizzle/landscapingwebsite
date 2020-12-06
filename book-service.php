@@ -489,5 +489,6 @@ $workinghours="Mon-Sat 9am-5pm";?>
 	$('#service-date').datepicker();
 </script>
 <script src="js/offcanvasmenu.js"></script>
+<script src="js/removeBanner.js"></script>
 </body>
 </html>
