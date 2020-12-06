@@ -68,3 +68,5 @@ height: 200px;
   left: 50%;
   transform: translate(-50%, -50%);}
 
+@media only screen and (min-width: 600px){
+	.carousel-item{height: 80vh;}}
