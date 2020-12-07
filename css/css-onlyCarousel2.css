@@ -69,4 +69,14 @@ height: 200px;
   transform: translate(-50%, -50%);}
 
 @media only screen and (min-width: 600px){
-	.carousel-item{height: 80vh;}}
+	.carousel-item{
+		height: 80vh;
+		max-height: 580px;
+		}
+		.carousel{top:104px;
+		margin-bottom:120px;}
+		/*Containers for the company name link and the top nav bar respectively*/
+.site-header,.topnav{ position: fixed;
+z-index: 89;
+opacity: 1;}
+    .topnav{top: 48px;}}

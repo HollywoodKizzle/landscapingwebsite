@@ -26,6 +26,7 @@ h3{
 .removal,.quote-teaser h3:before,.quote-teaser h3:after{
     display: none!important;}
 
+
 /*Only effective of the element has a relatively positioned parent*/	
 .dual-center{ position: absolute;
   top: 50%;
