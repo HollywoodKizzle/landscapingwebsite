@@ -169,7 +169,8 @@ h3{
 @media only screen and (min-width: 576px){
 	.site-logo a{
 		position: fixed;
-		position: absolute;}
+		/* position: absolute; */
+		}
 
 	    	
     .col-md-6{

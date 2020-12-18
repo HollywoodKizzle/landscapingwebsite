@@ -31,7 +31,8 @@
 .carousel {
   position: relative;
   filter: drop-shadow(0 0 10px #0003);
-  perspective: 100px;}
+  perspective: 100px;
+  bottom: 30px;}
   
  
 .carousel-wrapper{
@@ -73,9 +74,12 @@ height: 200px;
 		height: 80vh;
 		max-height: 580px;
 		}
-		.carousel{top:104px;
-		margin-bottom:120px;}
+		.carousel{
+		/* top:104px; */
+		margin-bottom:120px;
+		width:100vw;
+		}
 		/*Containers for the company name link and the top nav bar respectively*/
-.site-header,.topnav{position: fixed;z-index: 89;/* opacity: 1; */}
+/*.site-header,*/#site-logo-parent,.topnav{position: fixed;z-index: 89;/* opacity: 1; */width: 100vw;max-width: none;}
 
     .topnav{top: 48px;}}

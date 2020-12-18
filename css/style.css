@@ -1394,8 +1394,7 @@ body.boxed .is-sticky .main-navigation{
 	list-style-type:none;
 	margin:0;
 	position: relative;
-	left: 260px;
-
+	/* left: 260px; */
 }
 .header-info-cols li{
 	float:left;

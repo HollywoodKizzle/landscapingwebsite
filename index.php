@@ -71,7 +71,7 @@ $workinghours="Mon-Sat 9am-5pm";
                           <?php include 'headerlink.php';?>
                            
                         </div>
-                        <div class="site-tagline">Lawn &amp;Landscaping Services</div>
+                        <!--<div class="site-tagline">Lawn &amp;Landscaping Services</div>-->
                         <!-- <a href="#" class="btn btn-default btn-sm" id="contact-info"><i class="fa fa-bars"></i></a>-->
                         <div class="site-header-right">
                             <ul class="header-info-cols">
@@ -122,6 +122,7 @@ $workinghours="Mon-Sat 9am-5pm";
                             </ul>
                         </div>
                     </div>
+                    <?php include 'css-onlyCarousel.php'?>
                 </header>
                 
                 <div class="main-navigation" id="menu-container">
@@ -374,7 +375,7 @@ $workinghours="Mon-Sat 9am-5pm";
 
            <?php include 'offcanvasmenu.php';?>
         <?php include 'topnavbar.php';?>
-        <?php include 'css-onlyCarousel.php'?>
+        <!--<?php include 'css-onlyCarousel.php'?>-->
 
                         
            
