@@ -21,17 +21,10 @@ h2{
 
 h3{
 	font-size: 18px;}
-.header-wrapper{z-index:4;}
 
-.header-info-cols{
-	height: 100px;
-	left:90%;
-	background-color: white;
-}
 
 .removal,.quote-teaser h3:before,.quote-teaser h3:after{
     display: none!important;}
-
 
 /*Only effective of the element has a relatively positioned parent*/	
 .dual-center{ position: absolute;
